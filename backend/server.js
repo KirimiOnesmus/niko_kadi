@@ -15,7 +15,6 @@ connectDB();
 initializeCronJobs();
 
 // Middleware
-app.options("*", cors());
 
 app.use(cors({
   origin: [
