@@ -197,9 +197,9 @@ const Guide = () => {
   return (
     <div className="min-h-screen bg-zinc-950 text-white">
       
-      {/* Hero Section */}
+ 
       <section className="relative px-6 pt-34 pb-34 max-w-6xl mx-auto">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl" />
+        <div className="absolute top-0 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
 
         <div className="relative z-10">
           <p className="text-emerald-400 text-xs font-black uppercase tracking-widest mb-6 flex items-center gap-3">
@@ -221,10 +221,10 @@ const Guide = () => {
         </div>
       </section>
 
-      {/* Active Step Details */}
+      
       <section className="max-w-6xl mx-auto px-6 py-20">
         <div className="grid lg:grid-cols-3 gap-8">
-          {/* Main Content */}
+          
           <div className="lg:col-span-2">
             {registrationSteps
               .filter((step) => step.id === activeStep)
@@ -233,7 +233,7 @@ const Guide = () => {
                   key={step.id}
                   className="bg-gradient-to-br from-zinc-900 to-zinc-950 border-2 border-zinc-800 rounded-3xl p-10"
                 >
-                  {/* Header */}
+                
                   <div className="flex items-start gap-6 mb-6">
                     <div
                       className={`w-20 h-20 rounded-2xl bg-${step.color}-500/10 border-2 border-${step.color}-500/30 flex items-center justify-center text-${step.color}-400`}
@@ -253,7 +253,7 @@ const Guide = () => {
                     </div>
                   </div>
 
-                  {/* Requirements */}
+             
                   <div className="space-y-2">
                     {step.requirements.map((req, i) => (
                       <div
@@ -275,14 +275,14 @@ const Guide = () => {
                     ))}
                   </div>
 
-                  {/* Navigation */}
+        
                   <div className="flex items-center justify-between mt-8 pt-6 border-t border-zinc-800">
                     <button
                       onClick={() => setActiveStep(Math.max(1, activeStep - 1))}
                       disabled={activeStep === 1}
-                      className="flex items-center gap-2 text-zinc-400 hover:text-white 
-                      hover:border-2 hover:border-green-400 font-bold px-6 py-3 rounded-xl
-                       disabled:opacity-30 disabled:cursor-not-allowed transition-colors cursor-pointer"
+                      className="flex items-center gap-1 sm:gap-2 text-zinc-400 hover:text-white font-bold
+                    px-3 sm:px-6 py-2.5 sm:py-3 rounded-xl border border-transparent hover:border-emerald-500/40
+                    disabled:opacity-30 disabled:cursor-not-allowed transition-all cursor-pointer text-sm sm:text-base"
                     >
                       <FiChevronRight size={20} className="rotate-180" />
                       Previous Step
@@ -295,11 +295,11 @@ const Guide = () => {
                     <button
                       onClick={() => setActiveStep(Math.min(6, activeStep + 1))}
                       disabled={activeStep === 6}
-                      className={`flex items-center gap-2 font-black px-6 py-3 rounded-xl transition-all cursor-pointer ${
-                        activeStep === 6
-                          ? "bg-zinc-800 text-zinc-600 cursor-not-allowed"
-                          : "bg-emerald-500 hover:bg-emerald-400 text-black shadow-lg shadow-emerald-500/20"
-                      }`}
+                       className={`flex items-center gap-1 sm:gap-2 font-black px-4 sm:px-2 py-2.5 sm:py-3 rounded-xl transition-all cursor-pointer text-sm sm:text-sm ${
+                      activeStep === 6
+                        ? "bg-zinc-800 text-zinc-600 cursor-not-allowed"
+                        : "bg-emerald-500 hover:bg-emerald-400 text-black shadow-lg shadow-emerald-500/20 hover:scale-105"
+                    }`}
                     >
                       {activeStep === 6
                         ? "Journey Complete"
@@ -311,7 +311,7 @@ const Guide = () => {
               ))}
           </div>
 
-          {/* Sidebar - Milestones */}
+          
           <div className="lg:col-span-1">
             <div className="bg-zinc-900/50 border-2 border-zinc-800 rounded-3xl p-6 sticky top-6">
               <h3 className="text-sm font-black uppercase tracking-widest text-zinc-600 mb-6">
@@ -361,40 +361,40 @@ const Guide = () => {
         </div>
       </section>
 
-      {/* Why Register Section */}
+  
       <section className="border-y-2 border-zinc-800 bg-zinc-900/30">
-        <div className="max-w-6xl mx-auto px-6 py-18">
-          <div className="mb-8">
-            <p className="text-zinc-600 text-xs font-black uppercase tracking-widest mb-6 flex items-center gap-3">
-              <span className="w-8 h-0.5 bg-zinc-700" />
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14 sm:py-20">
+          <div className="mb-6 sm:mb-8">
+            <p className="text-zinc-600 text-xs font-black uppercase tracking-widest mb-4 sm:mb-6 flex items-center gap-3">
+              <span className="w-8 h-0.5 bg-zinc-700 shrink-0" />
               Why Register
             </p>
-            <h2 className="text-4xl font-black text-white">
+            <h2 className="text-3xl sm:text-4xl font-black text-white">
               Kadi Yako = Nguvu Yako
             </h2>
-            <p className="text-zinc-400 text-lg mt-3">
+            <p className="text-zinc-400 text-base sm:text-lg mt-2 sm:mt-3">
               Your card is your power. Here's why it matters.
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 gap-6">
+          <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
             {benefits.map((benefit, i) => (
               <div
                 key={i}
-                className="bg-zinc-900/50 border-2 border-zinc-800 hover:border-emerald-500/30 cursor-pointer
-                 rounded-2xl p-6 transition-all group"
+                className="group bg-zinc-900/50 border-2 border-zinc-800 hover:border-emerald-500/30 cursor-pointer
+                 rounded-2xl p-5 sm:p-6 transition-all"
               >
                 <div
-                  className={`w-14 h-14 rounded-2xl bg-${benefit.color}-500/10 border-2 border-${benefit.color}-500/30 
-                  flex items-center justify-center text-${benefit.color}-400 mb-6 group-hover:scale-110 
+                  className={`w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-${benefit.color}-500/10 border-2 border-${benefit.color}-500/30 
+                  flex items-center justify-center text-${benefit.color}-400 mb-4 sm:mb-6 group-hover:scale-110 
                   transition-transform`}
                 >
                   {benefit.icon}
                 </div>
-                <h3 className="text-white font-black text-xl mb-2">
+                <h3 className="text-white font-black text-lg sm:text-xl mb-2">
                   {benefit.title}
                 </h3>
-                <p className="text-zinc-400 leading-relaxed">
+                <p className="text-zinc-400 text-sm sm:text-base leading-relaxed">
                   {benefit.description}
                 </p>
               </div>
@@ -403,17 +403,17 @@ const Guide = () => {
         </div>
       </section>
 
-      {/* FAQs Section */}
-      <section className="max-w-4xl mx-auto px-6 py-20">
-        <div className="mb-10">
-          <p className="text-zinc-600 text-xs font-black uppercase tracking-widest mb-6 flex items-center gap-3">
-            <span className="w-8 h-0.5 bg-zinc-700" />
+     
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 py-14 sm:py-20">
+        <div className="mb-8 sm:mb-10">
+          <p className="text-zinc-600 text-xs font-black uppercase tracking-widest mb-4 sm:mb-6 flex items-center gap-3">
+            <span className="w-8 h-0.5 bg-zinc-700 shrink-0" />
             Common Questions
           </p>
-          <h2 className="text-4xl font-black text-white mb-4">
+          <h2 className="text-3xl sm:text-4xl font-black text-white mb-3 sm:mb-4">
             Maswali? We Got You.
           </h2>
-          <p className="text-zinc-400 text-lg">
+          <p className="text-zinc-400 text-base sm:text-lg">
             Everything you need to know about getting your voter's card.
           </p>
         </div>
@@ -426,22 +426,22 @@ const Guide = () => {
             >
               <button
                 onClick={() => setExpandedFaq(expandedFaq === i ? null : i)}
-                className="w-full flex items-center justify-between p-6 text-left
-                 hover:bg-zinc-900 transition-colors cursor-pointer"
+                className="w-full flex items-center justify-between p-4 sm:p-6 text-left
+                 hover:bg-zinc-900 transition-colors cursor-pointer gap-3"
               >
-                <h3 className="text-white font-black text-md pr-4">
+                <h3 className="text-white font-black text-sm sm:text-base leading-snug">
                   {faq.question}
                 </h3>
                 <FiChevronRight
-                  size={24}
+                  size={20}
                   className={`text-emerald-400 transition-transform flex-shrink-0 ${
                     expandedFaq === i ? "rotate-90" : ""
                   }`}
                 />
               </button>
               {expandedFaq === i && (
-                <div className="px-6 pb-6 border-t border-zinc-800">
-                  <p className="text-zinc-400 leading-relaxed pt-4">
+                <div className="px-4 sm:px-6 pb-5 sm:pb-6 border-t border-zinc-800">
+                  <p className="text-zinc-400 text-sm sm:text-base leading-relaxed pt-4">
                     {faq.answer}
                   </p>
                 </div>
@@ -451,35 +451,39 @@ const Guide = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
+ 
       <section className="border-t-2 border-zinc-800 bg-gradient-to-b from-zinc-900 to-zinc-950">
-        <div className="max-w-4xl mx-auto px-6 py-20 text-center">
-          <h2 className="text-4xl font-black text-white mb-6">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-16 sm:py-20 text-center">
+          <h2 className="text-3xl sm:text-4xl font-black text-white mb-4 sm:mb-6 leading-tight">
             Tayari Kuchukua Card?
           </h2>
-          <p className="text-zinc-400 text-xl mb-10 max-w-2xl mx-auto">
+          <p className="text-zinc-400 text-base sm:text-xl mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed">
             Find your nearest IEBC office and get registered in less than 15 minutes. No cap.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4">
             <button
               onClick={() => (window.location.href = "/pin-location")}
-              className="group bg-emerald-500 hover:bg-emerald-400 text-black font-black text-lg px-8 py-4 
-            rounded-2xl transition-all shadow-2xl shadow-emerald-500/30 hover:shadow-emerald-500/50 hover:scale-105 
-            flex items-center gap-3 cursor-pointer"
+              className="group bg-emerald-500 hover:bg-emerald-400 text-black font-black text-base sm:text-lg px-6 sm:px-8 py-3.5 sm:py-4
+            rounded-2xl transition-all shadow-2xl shadow-emerald-500/30 hover:shadow-emerald-500/50 hover:scale-105
+            flex items-center justify-center gap-3 cursor-pointer"
             >
               Find Nearest Center
               <FiMapPin size={20} />
             </button>
             <button
-              className="group bg-zinc-900 hover:bg-zinc-800 text-white font-bold text-lg px-8 py-4 
-            rounded-2xl border-2 border-zinc-700 hover:border-emerald-500/50 
-            transition-all flex items-center gap-3 cursor-pointer"
+              className="group bg-zinc-900 hover:bg-zinc-800 text-white font-bold text-base sm:text-lg px-6 sm:px-8 py-3.5 sm:py-4
+            rounded-2xl border-2 border-zinc-700 hover:border-emerald-500/50
+            transition-all flex items-center justify-center gap-3 cursor-pointer"
             >
               <BsWhatsapp size={20} />
               Get Help on WhatsApp
             </button>
           </div>
+
+          <p className="text-zinc-600 text-xs sm:text-sm font-bold mt-6 sm:mt-8 uppercase tracking-widest">
+            Bring your National ID · It's free · It takes 10 minutes
+          </p>
         </div>
       </section>
     </div>
