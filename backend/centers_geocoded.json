@@ -1,0 +1,3225 @@
+[
+  {
+    "name": "Changamwe IEBC",
+    "county": "Mombasa",
+    "constituency": "Changamwe",
+    "location": "At Changamwe firestation",
+    "landmark": "Changamwe firestation",
+    "coordinates": {
+      "lat": -4.026022,
+      "lng": 39.6270928
+    }
+  },
+  {
+    "name": "Jomvu IEBC",
+    "county": "Mombasa",
+    "constituency": "Jomvu",
+    "location": "Mikindani Police Station",
+    "landmark": "Mikindani Police Station",
+    "coordinates": {
+      "lat": -4.0065141,
+      "lng": 39.6277645
+    }
+  },
+  {
+    "name": "Kisauni IEBC",
+    "county": "Mombasa",
+    "constituency": "Kisauni",
+    "location": "Bamburi Fisheries",
+    "landmark": "Supa Loaf Bakery",
+    "coordinates": {
+      "lat": -4.0336204,
+      "lng": 39.6889101
+    }
+  },
+  {
+    "name": "Nyali IEBC",
+    "county": "Mombasa",
+    "constituency": "Nyali",
+    "location": "Chiefs office Kongowea",
+    "landmark": "DCC Nyali's office",
+    "coordinates": {
+      "lat": -4.0604571,
+      "lng": 39.6769811
+    }
+  },
+  {
+    "name": "Likoni IEBC",
+    "county": "Mombasa",
+    "constituency": "Likoni",
+    "location": "Shika Adabu",
+    "landmark": "Shika Adabu Chiefs office",
+    "coordinates": {
+      "lat": -4.0208106,
+      "lng": 39.678512
+    }
+  },
+  {
+    "name": "Mvita IEBC",
+    "county": "Mombasa",
+    "constituency": "Mvita",
+    "location": "Kizingo, Rashid Sajad road",
+    "landmark": "Chef Royale Restaurant",
+    "coordinates": {
+      "lat": -4.074937500000001,
+      "lng": 39.67118749999999
+    }
+  },
+  {
+    "name": "Msambweni IEBC",
+    "county": "Kwale",
+    "constituency": "Msambweni",
+    "location": "Msambweni Dcc's Office",
+    "landmark": "Subcounty HQ Msambweni",
+    "coordinates": {
+      "lat": -4.1437683,
+      "lng": 39.319993
+    }
+  },
+  {
+    "name": "Lungalunga IEBC",
+    "county": "Kwale",
+    "constituency": "Lungalunga",
+    "location": "Mbuyuni Area",
+    "landmark": "Mnarani Mast Lungalunga",
+    "coordinates": {
+      "lat": -4.5523967,
+      "lng": 39.1235104
+    }
+  },
+  {
+    "name": "Matuga IEBC",
+    "county": "Kwale",
+    "constituency": "Matuga",
+    "location": "Kwale Town",
+    "landmark": "Baraza Park Kwale",
+    "coordinates": {
+      "lat": -4.1804782,
+      "lng": 39.4561929
+    }
+  },
+  {
+    "name": "Kinango IEBC",
+    "county": "Kwale",
+    "constituency": "Kinango",
+    "location": "Bebora Plaza",
+    "landmark": "Chief's Office Kinango",
+    "coordinates": {
+      "lat": -4.139338599999999,
+      "lng": 39.3180297
+    }
+  },
+  {
+    "name": "Kilifi North IEBC",
+    "county": "Kilifi",
+    "constituency": "Kilifi North",
+    "location": "Huduma Centre Kilifi",
+    "landmark": "Kilifi Bridge",
+    "coordinates": {
+      "lat": -3.6364762,
+      "lng": 39.8485246
+    }
+  },
+  {
+    "name": "Kilifi South IEBC",
+    "county": "Kilifi",
+    "constituency": "Kilifi South",
+    "location": "Majengo Kanamai",
+    "landmark": "Matatu Terminus Kanamai",
+    "coordinates": {
+      "lat": -3.9157409,
+      "lng": 39.7608611
+    }
+  },
+  {
+    "name": "Kaloleni IEBC",
+    "county": "Kilifi",
+    "constituency": "Kaloleni",
+    "location": "St.Johns Girls Sec",
+    "landmark": "ACK Church Kaloleni",
+    "coordinates": {
+      "lat": -3.8148404,
+      "lng": 39.6285874
+    }
+  },
+  {
+    "name": "Rabai IEBC",
+    "county": "Kilifi",
+    "constituency": "Rabai",
+    "location": "Shikaadabu",
+    "landmark": "CDF Office Rabai",
+    "coordinates": {
+      "lat": -3.9454005,
+      "lng": 39.5588473
+    }
+  },
+  {
+    "name": "Ganze IEBC",
+    "county": "Kilifi",
+    "constituency": "Ganze",
+    "location": "Ganze Town",
+    "landmark": "Police Station Ganze",
+    "coordinates": {
+      "lat": -3.5306929,
+      "lng": 39.6724573
+    }
+  },
+  {
+    "name": "Malindi IEBC",
+    "county": "Kilifi",
+    "constituency": "Malindi",
+    "location": "Maweni Area",
+    "landmark": "Malindi Hospital",
+    "coordinates": {
+      "lat": -3.2252592,
+      "lng": 40.0864937
+    }
+  },
+  {
+    "name": "Magarini IEBC",
+    "county": "Kilifi",
+    "constituency": "Magarini",
+    "location": "Mwembe Resort",
+    "landmark": "Mwembe Resort Magarini",
+    "coordinates": {
+      "lat": -3.2048083,
+      "lng": 40.1075716
+    }
+  },
+  {
+    "name": "Garsen IEBC",
+    "county": "Tana River",
+    "constituency": "Garsen",
+    "location": "Garsen Town",
+    "landmark": "KCB Bank Garsen",
+    "coordinates": {
+      "lat": -2.2694764,
+      "lng": 40.1107088
+    }
+  },
+  {
+    "name": "Galole IEBC",
+    "county": "Tana River",
+    "constituency": "Galole",
+    "location": "Hola Town",
+    "landmark": "Kenya Medical Training Hola",
+    "coordinates": {
+      "lat": -1.4992288,
+      "lng": 40.0343255
+    }
+  },
+  {
+    "name": "Bura IEBC",
+    "county": "Tana River",
+    "constituency": "Bura",
+    "location": "Bura Town",
+    "landmark": "Government Offices Bura",
+    "coordinates": {
+      "lat": -1.0949895,
+      "lng": 39.9411014
+    }
+  },
+  {
+    "name": "Lamu East IEBC",
+    "county": "Lamu",
+    "constituency": "Lamu East",
+    "location": "Faza",
+    "landmark": "Post Office Faza",
+    "coordinates": {
+      "lat": -2.2695563,
+      "lng": 40.9006225
+    }
+  },
+  {
+    "name": "Lamu West IEBC",
+    "county": "Lamu",
+    "constituency": "Lamu West",
+    "location": "Mokowe",
+    "landmark": "Public Works Office Mokowe",
+    "coordinates": {
+      "lat": -2.2352243,
+      "lng": 40.8487826
+    }
+  },
+  {
+    "name": "Taveta IEBC",
+    "county": "Taita Taveta",
+    "constituency": "Taveta",
+    "location": "Taveta Town",
+    "landmark": "Probation Office Taveta",
+    "coordinates": {
+      "lat": -3.3997859,
+      "lng": 37.6732489
+    }
+  },
+  {
+    "name": "Wundanyi IEBC",
+    "county": "Taita Taveta",
+    "constituency": "Wundanyi",
+    "location": "Administration offices Wundanyi",
+    "landmark": "Forest Service office Wundanyi",
+    "coordinates": {
+      "lat": -3.3982231,
+      "lng": 38.3639837
+    }
+  },
+  {
+    "name": "Mwatate IEBC",
+    "county": "Taita Taveta",
+    "constituency": "Mwatate",
+    "location": "Mwatate old market",
+    "landmark": "Tavevo water company Mwatate",
+    "coordinates": {
+      "lat": -3.5032932,
+      "lng": 38.3639837
+    }
+  },
+  {
+    "name": "Voi IEBC",
+    "county": "Taita Taveta",
+    "constituency": "Voi",
+    "location": "County Public Service Board Voi",
+    "landmark": "Voi Remand prison",
+    "coordinates": {
+      "lat": -3.3973104,
+      "lng": 38.5559336
+    }
+  },
+  {
+    "name": "Garissa Township IEBC",
+    "county": "Garissa",
+    "constituency": "Garissa Township",
+    "location": "Off Lamu Road Garissa",
+    "landmark": "Ministry Of Water Garissa",
+    "coordinates": {
+      "lat": -0.4532293,
+      "lng": 39.6460988
+    }
+  },
+  {
+    "name": "Balambala IEBC",
+    "county": "Garissa",
+    "constituency": "Balambala",
+    "location": "Balambala Town",
+    "landmark": "DC's Office Balambala",
+    "coordinates": {
+      "lat": 0.08695549999999999,
+      "lng": 39.1127352
+    }
+  },
+  {
+    "name": "Lagdera IEBC",
+    "county": "Garissa",
+    "constituency": "Lagdera",
+    "location": "Modogashe Town",
+    "landmark": "Police Station Modogashe",
+    "coordinates": {
+      "lat": 0.5503144999999999,
+      "lng": 39.1981522
+    }
+  },
+  {
+    "name": "Dadaab IEBC",
+    "county": "Garissa",
+    "constituency": "Dadaab",
+    "location": "Dadaab Town",
+    "landmark": "UN Compound Dadaab",
+    "coordinates": {
+      "lat": 0.0074565,
+      "lng": 40.3702068
+    }
+  },
+  {
+    "name": "Fafi IEBC",
+    "county": "Garissa",
+    "constituency": "Fafi",
+    "location": "Fafi Town",
+    "landmark": "DC's Office Fafi",
+    "coordinates": {
+      "lat": -0.4532293,
+      "lng": 39.6460988
+    }
+  },
+  {
+    "name": "Ijara IEBC",
+    "county": "Garissa",
+    "constituency": "Ijara",
+    "location": "Masalani Town",
+    "landmark": "DC's Office Masalani",
+    "coordinates": {
+      "lat": -0.4532293,
+      "lng": 39.6460988
+    }
+  },
+  {
+    "name": "Wajir North IEBC",
+    "county": "Wajir",
+    "constituency": "Wajir North",
+    "location": "Bute Town",
+    "landmark": "Police Station Bute",
+    "coordinates": {
+      "lat": 2.0005345,
+      "lng": 39.75752720000001
+    }
+  },
+  {
+    "name": "Wajir East IEBC",
+    "county": "Wajir",
+    "constituency": "Wajir East",
+    "location": "Wajir Town",
+    "landmark": "Huduma Centre Wajir",
+    "coordinates": {
+      "lat": 1.7488388,
+      "lng": 40.058633
+    }
+  },
+  {
+    "name": "Tarbaj IEBC",
+    "county": "Wajir",
+    "constituency": "Tarbaj",
+    "location": "Tarbaj Town",
+    "landmark": "Ward Administrator Tarbaj",
+    "coordinates": {
+      "lat": 1.7488388,
+      "lng": 40.058633
+    }
+  },
+  {
+    "name": "Wajir West IEBC",
+    "county": "Wajir",
+    "constituency": "Wajir West",
+    "location": "Giriftu Town",
+    "landmark": "DCC's Office Giriftu",
+    "coordinates": {
+      "lat": 1.993701,
+      "lng": 39.732712
+    }
+  },
+  {
+    "name": "Eldas IEBC",
+    "county": "Wajir",
+    "constituency": "Eldas",
+    "location": "Eldas Town",
+    "landmark": "DC's Residence Eldas",
+    "coordinates": {
+      "lat": 1.7488388,
+      "lng": 40.058633
+    }
+  },
+  {
+    "name": "Wajir South IEBC",
+    "county": "Wajir",
+    "constituency": "Wajir South",
+    "location": "Habaswein Town",
+    "landmark": "AP Camp Habaswein",
+    "coordinates": {
+      "lat": 1.0144148,
+      "lng": 39.49495950000001
+    }
+  },
+  {
+    "name": "Banissa IEBC",
+    "county": "Mandera",
+    "constituency": "Banissa",
+    "location": "Banissa Town",
+    "landmark": "Malkamari Hotel Banissa",
+    "coordinates": {
+      "lat": 3.9408941,
+      "lng": 40.34511130000001
+    }
+  },
+  {
+    "name": "Mandera West IEBC",
+    "county": "Mandera",
+    "constituency": "Mandera West",
+    "location": "Takaba Town",
+    "landmark": "Takaba Primary School",
+    "coordinates": {
+      "lat": 3.3969612,
+      "lng": 40.225137
+    }
+  },
+  {
+    "name": "Mandera North IEBC",
+    "county": "Mandera",
+    "constituency": "Mandera North",
+    "location": "DCC Compound Mandera",
+    "landmark": "DCC Compound Mandera North",
+    "coordinates": {
+      "lat": 3.935638899999999,
+      "lng": 41.8551162
+    }
+  },
+  {
+    "name": "Mandera South IEBC",
+    "county": "Mandera",
+    "constituency": "Mandera South",
+    "location": "Elwak CBD",
+    "landmark": "Dido Petrol Station Elwak",
+    "coordinates": {
+      "lat": 2.8070021,
+      "lng": 40.9283904
+    }
+  },
+  {
+    "name": "Mandera East IEBC",
+    "county": "Mandera",
+    "constituency": "Mandera East",
+    "location": "Mandera Town",
+    "landmark": "Blue Light Petrol Mandera",
+    "coordinates": {
+      "lat": 3.9374299,
+      "lng": 41.8612021
+    }
+  },
+  {
+    "name": "Lafey IEBC",
+    "county": "Mandera",
+    "constituency": "Lafey",
+    "location": "Lafey Town",
+    "landmark": "Lafey Primary School",
+    "coordinates": {
+      "lat": 3.1536609,
+      "lng": 41.1854057
+    }
+  },
+  {
+    "name": "Moyale IEBC",
+    "county": "Marsabit",
+    "constituency": "Moyale",
+    "location": "ACK Moyale",
+    "landmark": "St. Paul Training Center Moyale",
+    "coordinates": {
+      "lat": 3.5210916,
+      "lng": 39.0546262
+    }
+  },
+  {
+    "name": "North Horr IEBC",
+    "county": "Marsabit",
+    "constituency": "North Horr",
+    "location": "North Horr Town",
+    "landmark": "AP Camp North Horr",
+    "coordinates": {
+      "lat": 3.3211012,
+      "lng": 37.0725888
+    }
+  },
+  {
+    "name": "Saku IEBC",
+    "county": "Marsabit",
+    "constituency": "Saku",
+    "location": "Marsabit Town",
+    "landmark": "St. Peter Cathedral Marsabit",
+    "coordinates": {
+      "lat": 2.3321722,
+      "lng": 37.9894209
+    }
+  },
+  {
+    "name": "Laisamis IEBC",
+    "county": "Marsabit",
+    "constituency": "Laisamis",
+    "location": "Laisamis Town",
+    "landmark": "DCC Compound Laisamis",
+    "coordinates": {
+      "lat": 1.5962079,
+      "lng": 37.8061146
+    }
+  },
+  {
+    "name": "Isiolo North IEBC",
+    "county": "Isiolo",
+    "constituency": "Isiolo North",
+    "location": "Isiolo Town",
+    "landmark": "County Assembly Isiolo",
+    "coordinates": {
+      "lat": 0.3543654,
+      "lng": 37.5857096
+    }
+  },
+  {
+    "name": "Isiolo South IEBC",
+    "county": "Isiolo",
+    "constituency": "Isiolo South",
+    "location": "Garbatulla Town",
+    "landmark": "Catholic Mission Garbatulla",
+    "coordinates": {
+      "lat": 0.4110913,
+      "lng": 38.5690418
+    }
+  },
+  {
+    "name": "Buuri IEBC",
+    "county": "Meru",
+    "constituency": "Buuri",
+    "location": "Timau Town",
+    "landmark": "DCC Buuri West Timau",
+    "coordinates": {
+      "lat": 0.1113377,
+      "lng": 37.3934061
+    }
+  },
+  {
+    "name": "Igembe Central IEBC",
+    "county": "Meru",
+    "constituency": "Igembe Central",
+    "location": "Kangeta Town",
+    "landmark": "DCC Office Kangeta",
+    "coordinates": {
+      "lat": 0.285697,
+      "lng": 37.880562
+    }
+  },
+  {
+    "name": "Igembe North IEBC",
+    "county": "Meru",
+    "constituency": "Igembe North",
+    "location": "Laare Town",
+    "landmark": "Shell Petrol Station Laare",
+    "coordinates": {
+      "lat": 0.0600781,
+      "lng": 37.6365276
+    }
+  },
+  {
+    "name": "Tigania West IEBC",
+    "county": "Meru",
+    "constituency": "Tigania West",
+    "location": "Kianjai Town",
+    "landmark": "National Bank Kianjai",
+    "coordinates": {
+      "lat": 0.233523,
+      "lng": 37.943256
+    }
+  },
+  {
+    "name": "Tigania East IEBC",
+    "county": "Meru",
+    "constituency": "Tigania East",
+    "location": "Muriri Town",
+    "landmark": "DCC Office Muriri",
+    "coordinates": {
+      "lat": 0.2141205,
+      "lng": 37.7916778
+    }
+  },
+  {
+    "name": "North Imenti IEBC",
+    "county": "Meru",
+    "constituency": "North Imenti",
+    "location": "Meru Town",
+    "landmark": "Huduma Center Meru",
+    "coordinates": {
+      "lat": 0.0489429,
+      "lng": 37.6491078
+    }
+  },
+  {
+    "name": "Igembe South IEBC",
+    "county": "Meru",
+    "constituency": "Igembe South",
+    "location": "Maua Town",
+    "landmark": "Police Station Maua",
+    "coordinates": {
+      "lat": 0.2325548,
+      "lng": 37.9413748
+    }
+  },
+  {
+    "name": "Central Imenti IEBC",
+    "county": "Meru",
+    "constituency": "Central Imenti",
+    "location": "Gatimbi Market",
+    "landmark": "Equator Signpost Meru",
+    "coordinates": {
+      "lat": 0.0509239,
+      "lng": 37.6459532
+    }
+  },
+  {
+    "name": "South Imenti IEBC",
+    "county": "Meru",
+    "constituency": "South Imenti",
+    "location": "Nkubu Town",
+    "landmark": "Consolata Hospital Nkubu",
+    "coordinates": {
+      "lat": -0.06989,
+      "lng": 37.6667451
+    }
+  },
+  {
+    "name": "Maara IEBC",
+    "county": "Tharaka-Nithi",
+    "constituency": "Maara",
+    "location": "Kienganguru",
+    "landmark": "DCC Compound Maara",
+    "coordinates": {
+      "lat": -0.2184268,
+      "lng": 37.7078184
+    }
+  },
+  {
+    "name": "Chuka Igambang'ombe IEBC",
+    "county": "Tharaka-Nithi",
+    "constituency": "Chuka/Igambang'ombe",
+    "location": "Chuka Town",
+    "landmark": "Trans National Bank Chuka",
+    "coordinates": {
+      "lat": -0.3315507,
+      "lng": 37.647418
+    }
+  },
+  {
+    "name": "Tharaka IEBC",
+    "county": "Tharaka-Nithi",
+    "constituency": "Tharaka",
+    "location": "Marimanti Town",
+    "landmark": "DCC Offices Marimanti",
+    "coordinates": {
+      "lat": -0.1570413,
+      "lng": 37.9778247
+    }
+  },
+  {
+    "name": "Manyatta IEBC",
+    "county": "Embu",
+    "constituency": "Manyatta",
+    "location": "Embu Town",
+    "landmark": "ACK Cathedral Church Embu",
+    "coordinates": {
+      "lat": -0.5388381,
+      "lng": 37.4596409
+    }
+  },
+  {
+    "name": "Runyenjes IEBC",
+    "county": "Embu",
+    "constituency": "Runyenjes",
+    "location": "Runyenjes Town",
+    "landmark": "DCC Offices Runyenjes",
+    "coordinates": {
+      "lat": -0.5388381,
+      "lng": 37.4596409
+    }
+  },
+  {
+    "name": "Mbeere South IEBC",
+    "county": "Embu",
+    "constituency": "Mbeere South",
+    "location": "Kiritiri Town",
+    "landmark": "DCC Offices Kiritiri",
+    "coordinates": {
+      "lat": -0.6859545,
+      "lng": 37.6479757
+    }
+  },
+  {
+    "name": "Mbeere North IEBC",
+    "county": "Embu",
+    "constituency": "Mbeere North",
+    "location": "Siakago Town",
+    "landmark": "DCC Offices Siakago",
+    "coordinates": {
+      "lat": -0.5388381,
+      "lng": 37.4596409
+    }
+  },
+  {
+    "name": "Mwingi North IEBC",
+    "county": "Kitui",
+    "constituency": "Mwingi North",
+    "location": "Kyuso Town",
+    "landmark": "Equity Bank Kyuso",
+    "coordinates": {
+      "lat": -1.3669533,
+      "lng": 38.0095558
+    }
+  },
+  {
+    "name": "Mwingi West IEBC",
+    "county": "Kitui",
+    "constituency": "Mwingi West",
+    "location": "Migwani Town",
+    "landmark": "Baraza Park Migwani",
+    "coordinates": {
+      "lat": -1.0999112,
+      "lng": 38.0353692
+    }
+  },
+  {
+    "name": "Mwingi Central IEBC",
+    "county": "Kitui",
+    "constituency": "Mwingi Central",
+    "location": "Mwingi Town",
+    "landmark": "NCPB Depot Mwingi",
+    "coordinates": {
+      "lat": -0.9378584999999999,
+      "lng": 38.0623446
+    }
+  },
+  {
+    "name": "Kitui West IEBC",
+    "county": "Kitui",
+    "constituency": "Kitui West",
+    "location": "Matinyani Town",
+    "landmark": "DCC Offices Matinyani",
+    "coordinates": {
+      "lat": -1.3132572,
+      "lng": 37.9725
+    }
+  },
+  {
+    "name": "Kitui Rural IEBC",
+    "county": "Kitui",
+    "constituency": "Kitui Rural",
+    "location": "Kwa Vonza Town",
+    "landmark": "CDF Building Kwa Vonza",
+    "coordinates": {
+      "lat": -1.2180377,
+      "lng": 37.745028
+    }
+  },
+  {
+    "name": "Kitui Central IEBC",
+    "county": "Kitui",
+    "constituency": "Kitui Central",
+    "location": "Kitui Town",
+    "landmark": "Kafoca Hotel Kitui",
+    "coordinates": {
+      "lat": -1.3750813,
+      "lng": 37.9952144
+    }
+  },
+  {
+    "name": "Kitui East IEBC",
+    "county": "Kitui",
+    "constituency": "Kitui East",
+    "location": "Zombe Town",
+    "landmark": "Police Station Zombe",
+    "coordinates": {
+      "lat": -1.4524714,
+      "lng": 38.234841
+    }
+  },
+  {
+    "name": "Kitui South IEBC",
+    "county": "Kitui",
+    "constituency": "Kitui South",
+    "location": "Ikutha Town",
+    "landmark": "Registry Office Ikutha",
+    "coordinates": {
+      "lat": -2.0651622,
+      "lng": 38.17677750000001
+    }
+  },
+  {
+    "name": "Masinga IEBC",
+    "county": "Machakos",
+    "constituency": "Masinga",
+    "location": "Masinga Town",
+    "landmark": "MULKAS Petrol Masinga",
+    "coordinates": {
+      "lat": -0.9727265,
+      "lng": 37.6034369
+    }
+  },
+  {
+    "name": "Yatta IEBC",
+    "county": "Machakos",
+    "constituency": "Yatta",
+    "location": "Kithimani Town",
+    "landmark": "NCPB Compound Kithimani",
+    "coordinates": {
+      "lat": -1.1840152,
+      "lng": 37.4461281
+    }
+  },
+  {
+    "name": "Kangundo IEBC",
+    "county": "Machakos",
+    "constituency": "Kangundo",
+    "location": "Kangundo Town",
+    "landmark": "Kangundo Hospital",
+    "coordinates": {
+      "lat": -1.3021387,
+      "lng": 37.3447369
+    }
+  },
+  {
+    "name": "Matungulu IEBC",
+    "county": "Machakos",
+    "constituency": "Matungulu",
+    "location": "Tala Town",
+    "landmark": "Kangundo Junior School Tala",
+    "coordinates": {
+      "lat": -1.2711394,
+      "lng": 37.3263851
+    }
+  },
+  {
+    "name": "Kathiani IEBC",
+    "county": "Machakos",
+    "constituency": "Kathiani",
+    "location": "Kathiani Town",
+    "landmark": "DCC Office Kathiani",
+    "coordinates": {
+      "lat": -1.4116892,
+      "lng": 37.3312907
+    }
+  },
+  {
+    "name": "Mavoko IEBC",
+    "county": "Machakos",
+    "constituency": "Mavoko",
+    "location": "Athi River Town",
+    "landmark": "DCC Office Athi River",
+    "coordinates": {
+      "lat": -1.4577245,
+      "lng": 36.9785033
+    }
+  },
+  {
+    "name": "Machakos Town IEBC",
+    "county": "Machakos",
+    "constituency": "Machakos Town",
+    "location": "Machakos Town",
+    "landmark": "IEBC County Offices Machakos",
+    "coordinates": {
+      "lat": -1.5143422,
+      "lng": 37.2681981
+    }
+  },
+  {
+    "name": "Mwala IEBC",
+    "county": "Machakos",
+    "constituency": "Mwala",
+    "location": "Mwala Town",
+    "landmark": "Police Patrol Base Mwala",
+    "coordinates": {
+      "lat": -1.3519815,
+      "lng": 37.4502563
+    }
+  },
+  {
+    "name": "Mbooni IEBC",
+    "county": "Makueni",
+    "constituency": "Mbooni",
+    "location": "Tawa Town",
+    "landmark": "Tawa Law Courts",
+    "coordinates": {
+      "lat": -1.5481573,
+      "lng": 37.46563
+    }
+  },
+  {
+    "name": "Kilome IEBC",
+    "county": "Makueni",
+    "constituency": "Kilome",
+    "location": "Malili Town",
+    "landmark": "Konza City",
+    "coordinates": {
+      "lat": -2.2558734,
+      "lng": 37.8936663
+    }
+  },
+  {
+    "name": "Kaiti IEBC",
+    "county": "Makueni",
+    "constituency": "Kaiti",
+    "location": "Mukuyuni Town",
+    "landmark": "Police Station Mukuyuni",
+    "coordinates": {
+      "lat": -1.7473102,
+      "lng": 37.4621372
+    }
+  },
+  {
+    "name": "Makueni IEBC",
+    "county": "Makueni",
+    "constituency": "Makueni",
+    "location": "Wote Town",
+    "landmark": "Subcounty Hospital Wote",
+    "coordinates": {
+      "lat": -1.788625,
+      "lng": 37.63333960000001
+    }
+  },
+  {
+    "name": "Kibwezi West IEBC",
+    "county": "Makueni",
+    "constituency": "Kibwezi West",
+    "location": "Makindu Town",
+    "landmark": "DCC Office Makindu",
+    "coordinates": {
+      "lat": -2.2777039,
+      "lng": 37.8246955
+    }
+  },
+  {
+    "name": "Kibwezi East IEBC",
+    "county": "Makueni",
+    "constituency": "Kibwezi East",
+    "location": "Kibwezi Town",
+    "landmark": "Ministry Office Kibwezi",
+    "coordinates": {
+      "lat": -2.4105236,
+      "lng": 37.96784700000001
+    }
+  },
+  {
+    "name": "Kinangop IEBC",
+    "county": "Nyandarua",
+    "constituency": "Kinangop",
+    "location": "Njabini Town",
+    "landmark": "Subcounty HQ Kinangop",
+    "coordinates": {
+      "lat": -0.1803855,
+      "lng": 36.5229641
+    }
+  },
+  {
+    "name": "Kipipiri IEBC",
+    "county": "Nyandarua",
+    "constituency": "Kipipiri",
+    "location": "Kipipiri Town",
+    "landmark": "Subcounty HQ Kipipiri",
+    "coordinates": {
+      "lat": -0.7478608999999999,
+      "lng": 37.004862
+    }
+  },
+  {
+    "name": "Ol Kalou IEBC",
+    "county": "Nyandarua",
+    "constituency": "Ol Kalou",
+    "location": "Ol Kalou Town",
+    "landmark": "Posta Building Ol Kalou",
+    "coordinates": {
+      "lat": -0.272699,
+      "lng": 36.3775152
+    }
+  },
+  {
+    "name": "Ol Jorok IEBC",
+    "county": "Nyandarua",
+    "constituency": "Ol Jorok",
+    "location": "Mirangine Town",
+    "landmark": "Subcounty HQ Ol Jorok",
+    "coordinates": {
+      "lat": -0.07330529999999999,
+      "lng": 36.3633516
+    }
+  },
+  {
+    "name": "Ndaragwa IEBC",
+    "county": "Nyandarua",
+    "constituency": "Ndaragwa",
+    "location": "Ndaragwa Town",
+    "landmark": "Police Station Ndaragwa",
+    "coordinates": {
+      "lat": -0.0581284,
+      "lng": 36.531071
+    }
+  },
+  {
+    "name": "Tetu IEBC",
+    "county": "Nyeri",
+    "constituency": "Tetu",
+    "location": "Tetu Town",
+    "landmark": "DCC Offices Tetu",
+    "coordinates": {
+      "lat": -0.4546561,
+      "lng": 36.8734588
+    }
+  },
+  {
+    "name": "Kieni IEBC",
+    "county": "Nyeri",
+    "constituency": "Kieni",
+    "location": "Mweiga Town",
+    "landmark": "Equity ATM Mweiga",
+    "coordinates": {
+      "lat": -0.4372992,
+      "lng": 36.9582393
+    }
+  },
+  {
+    "name": "Mathira IEBC",
+    "county": "Nyeri",
+    "constituency": "Mathira",
+    "location": "Karatina Town",
+    "landmark": "Law Courts Karatina",
+    "coordinates": {
+      "lat": -0.4804558,
+      "lng": 37.1284672
+    }
+  },
+  {
+    "name": "Othaya IEBC",
+    "county": "Nyeri",
+    "constituency": "Othaya",
+    "location": "Othaya Town",
+    "landmark": "DCC Office Othaya",
+    "coordinates": {
+      "lat": -0.5490317,
+      "lng": 36.9430557
+    }
+  },
+  {
+    "name": "Mukurwe-Ini IEBC",
+    "county": "Nyeri",
+    "constituency": "Mukurwe-ini",
+    "location": "Mukurwe-ini Town",
+    "landmark": "Subcounty Hospital Mukurwe-ini",
+    "coordinates": {
+      "lat": -0.5612305,
+      "lng": 37.0510725
+    }
+  },
+  {
+    "name": "Nyeri Town IEBC",
+    "county": "Nyeri",
+    "constituency": "Nyeri-Town",
+    "location": "Nyeri Town",
+    "landmark": "Huduma Center Nyeri",
+    "coordinates": {
+      "lat": -0.4213776,
+      "lng": 36.9471807
+    }
+  },
+  {
+    "name": "Mwea IEBC",
+    "county": "Kirinyaga",
+    "constituency": "Mwea",
+    "location": "Wanguru Town",
+    "landmark": "Police Station Wanguru",
+    "coordinates": {
+      "lat": -0.68491,
+      "lng": 37.35399049999999
+    }
+  },
+  {
+    "name": "Gichugu IEBC",
+    "county": "Kirinyaga",
+    "constituency": "Gichugu",
+    "location": "Kianyaga Town",
+    "landmark": "Raimu Primary School Kianyaga",
+    "coordinates": {
+      "lat": -0.4996143,
+      "lng": 37.3546726
+    }
+  },
+  {
+    "name": "Ndia IEBC",
+    "county": "Kirinyaga",
+    "constituency": "Ndia",
+    "location": "Baricho Town",
+    "landmark": "ACK St Philips Baricho",
+    "coordinates": {
+      "lat": -0.5517071,
+      "lng": 37.2409762
+    }
+  },
+  {
+    "name": "Kirinyaga Central IEBC",
+    "county": "Kirinyaga",
+    "constituency": "Kirinyaga Central",
+    "location": "Kerugoya Town",
+    "landmark": "Police Station Kerugoya",
+    "coordinates": {
+      "lat": -0.4993281,
+      "lng": 37.2784835
+    }
+  },
+  {
+    "name": "Kirinyaga County IEBC",
+    "county": "Kirinyaga",
+    "constituency": "County Office",
+    "location": "Kerugoya Town",
+    "landmark": "High Court Kerugoya",
+    "coordinates": {
+      "lat": -0.4983582,
+      "lng": 37.28001
+    }
+  },
+  {
+    "name": "Kangema IEBC",
+    "county": "Murang'a",
+    "constituency": "Kangema",
+    "location": "Kangema Town",
+    "landmark": "DCC Offices Kangema",
+    "coordinates": {
+      "lat": -0.6846099999999999,
+      "lng": 36.9635102
+    }
+  },
+  {
+    "name": "Mathioya IEBC",
+    "county": "Murang'a",
+    "constituency": "Mathioya",
+    "location": "Kiria-Ini Town",
+    "landmark": "DCC Offices Kiria-Ini",
+    "coordinates": {
+      "lat": -0.6000519999999999,
+      "lng": 36.9567938
+    }
+  },
+  {
+    "name": "Kiharu IEBC",
+    "county": "Murang'a",
+    "constituency": "Kiharu",
+    "location": "Murang'a Town",
+    "landmark": "Rubis Petrol Station Murang'a",
+    "coordinates": {
+      "lat": -0.7214292,
+      "lng": 37.15974629999999
+    }
+  },
+  {
+    "name": "Kigumo IEBC",
+    "county": "Murang'a",
+    "constituency": "Kigumo",
+    "location": "Kangari Town",
+    "landmark": "Muungano Microfinance Kangari",
+    "coordinates": {
+      "lat": -0.7846056,
+      "lng": 36.8743474
+    }
+  },
+  {
+    "name": "Maragwa IEBC",
+    "county": "Murang'a",
+    "constituency": "Maragwa",
+    "location": "Makuyu Town",
+    "landmark": "ACC Office Makuyu",
+    "coordinates": {
+      "lat": -0.9025839999999999,
+      "lng": 37.1874835
+    }
+  },
+  {
+    "name": "Kandara IEBC",
+    "county": "Murang'a",
+    "constituency": "Kandara",
+    "location": "Kandara Town",
+    "landmark": "Amica Sacco Kandara",
+    "coordinates": {
+      "lat": -0.8964137,
+      "lng": 37.0021177
+    }
+  },
+  {
+    "name": "Gatanga IEBC",
+    "county": "Murang'a",
+    "constituency": "Gatanga",
+    "location": "Kirwara Town",
+    "landmark": "Police Station Kirwara",
+    "coordinates": {
+      "lat": -0.9312430999999999,
+      "lng": 36.9458593
+    }
+  },
+  {
+    "name": "Murang'a County IEBC",
+    "county": "Murang'a",
+    "constituency": "County Office",
+    "location": "Murang'a Town",
+    "landmark": "Rubis Petrol Station Murang'a",
+    "coordinates": {
+      "lat": -0.7214292,
+      "lng": 37.15974629999999
+    }
+  },
+  {
+    "name": "Gatundu South IEBC",
+    "county": "Kiambu",
+    "constituency": "Gatundu South",
+    "location": "Gatundu Town",
+    "landmark": "Level 5 Hospital Gatundu",
+    "coordinates": {
+      "lat": -1.1720794,
+      "lng": 36.8308045
+    }
+  },
+  {
+    "name": "Gatundu North IEBC",
+    "county": "Kiambu",
+    "constituency": "Gatundu North",
+    "location": "Kamwangi Town",
+    "landmark": "DCC Office Kamwangi",
+    "coordinates": {
+      "lat": -0.949886,
+      "lng": 36.8962905
+    }
+  },
+  {
+    "name": "Juja IEBC",
+    "county": "Kiambu",
+    "constituency": "Juja",
+    "location": "Juja Town",
+    "landmark": "Agakhan Hospital Juja",
+    "coordinates": {
+      "lat": -1.1177364,
+      "lng": 37.0089794
+    }
+  },
+  {
+    "name": "Thika Town IEBC",
+    "county": "Kiambu",
+    "constituency": "Thika Town",
+    "location": "Thika Town",
+    "landmark": "Buffalo Grill Thika",
+    "coordinates": {
+      "lat": -1.0381108,
+      "lng": 37.0726495
+    }
+  },
+  {
+    "name": "Ruiru IEBC",
+    "county": "Kiambu",
+    "constituency": "Ruiru",
+    "location": "Ruiru Town",
+    "landmark": "Law Courts Ruiru",
+    "coordinates": {
+      "lat": -1.1724458,
+      "lng": 36.8312549
+    }
+  },
+  {
+    "name": "Githunguri IEBC",
+    "county": "Kiambu",
+    "constituency": "Githunguri",
+    "location": "Githunguri Town",
+    "landmark": "DCC Offices Githunguri",
+    "coordinates": {
+      "lat": -1.0587682,
+      "lng": 36.7753235
+    }
+  },
+  {
+    "name": "Kiambu IEBC",
+    "county": "Kiambu",
+    "constituency": "Kiambu",
+    "location": "Kiambu Town",
+    "landmark": "National Bank Kiambu",
+    "coordinates": {
+      "lat": -1.1715104,
+      "lng": 36.8285495
+    }
+  },
+  {
+    "name": "Kiambaa IEBC",
+    "county": "Kiambu",
+    "constituency": "Kiambaa",
+    "location": "Kiambaa Town",
+    "landmark": "DCC Building Kiambaa",
+    "coordinates": {
+      "lat": -1.1748105,
+      "lng": 36.8304102
+    }
+  },
+  {
+    "name": "Kabete IEBC",
+    "county": "Kiambu",
+    "constituency": "Kabete",
+    "location": "Wangige Town",
+    "landmark": "Wangige Hospital",
+    "coordinates": {
+      "lat": -1.2188069,
+      "lng": 36.71287909999999
+    }
+  },
+  {
+    "name": "Kikuyu IEBC",
+    "county": "Kiambu",
+    "constituency": "Kikuyu",
+    "location": "Kikuyu Town",
+    "landmark": "K-Unity Bank Kikuyu",
+    "coordinates": {
+      "lat": -0.9810681,
+      "lng": 36.6295909
+    }
+  },
+  {
+    "name": "Limuru IEBC",
+    "county": "Kiambu",
+    "constituency": "Limuru",
+    "location": "Limuru Town",
+    "landmark": "Law Courts Limuru",
+    "coordinates": {
+      "lat": -1.1111125,
+      "lng": 36.63971069999999
+    }
+  },
+  {
+    "name": "Lari IEBC",
+    "county": "Kiambu",
+    "constituency": "Lari",
+    "location": "Kimende Town",
+    "landmark": "K-Unity Sacco Kimende",
+    "coordinates": {
+      "lat": -1.1716875,
+      "lng": 36.8288125
+    }
+  },
+  {
+    "name": "Turkana North IEBC",
+    "county": "Turkana",
+    "constituency": "Turkana North",
+    "location": "Lokitaung Town",
+    "landmark": "DCC Office Lokitaung",
+    "coordinates": {
+      "lat": 4.275799999999999,
+      "lng": 35.7461477
+    }
+  },
+  {
+    "name": "Turkana West IEBC",
+    "county": "Turkana",
+    "constituency": "Turkana West",
+    "location": "Kakuma Town",
+    "landmark": "Refugees Affairs Kakuma",
+    "coordinates": {
+      "lat": 3.709077,
+      "lng": 34.8553436
+    }
+  },
+  {
+    "name": "Turkana Central IEBC",
+    "county": "Turkana",
+    "constituency": "Turkana Central",
+    "location": "Lodwar Town",
+    "landmark": "Huduma Centre Lodwar",
+    "coordinates": {
+      "lat": 3.1183055,
+      "lng": 35.6031006
+    }
+  },
+  {
+    "name": "Loima IEBC",
+    "county": "Turkana",
+    "constituency": "Loima",
+    "location": "Lorgum Town",
+    "landmark": "DCC Office Lorgum",
+    "coordinates": {
+      "lat": 3.3122477,
+      "lng": 35.5657862
+    }
+  },
+  {
+    "name": "Turkana South IEBC",
+    "county": "Turkana",
+    "constituency": "Turkana South",
+    "location": "Lokichar Town",
+    "landmark": "DCC Office Lokichar",
+    "coordinates": {
+      "lat": 2.383763,
+      "lng": 35.6478189
+    }
+  },
+  {
+    "name": "Turkana East IEBC",
+    "county": "Turkana",
+    "constituency": "Turkana East",
+    "location": "Lokori Town",
+    "landmark": "DCC Office Lokori",
+    "coordinates": {
+      "lat": 1.9541976,
+      "lng": 36.0295261
+    }
+  },
+  {
+    "name": "Kapenguria IEBC",
+    "county": "West Pokot",
+    "constituency": "Kapenguria",
+    "location": "Kapenguria Town",
+    "landmark": "DCC Offices Kapenguria",
+    "coordinates": {
+      "lat": 1.2481932,
+      "lng": 35.1103736
+    }
+  },
+  {
+    "name": "Sigor IEBC",
+    "county": "West Pokot",
+    "constituency": "Sigor",
+    "location": "Sigor Town",
+    "landmark": "KVDA Offices Sigor",
+    "coordinates": {
+      "lat": 1.4959744,
+      "lng": 35.4727149
+    }
+  },
+  {
+    "name": "Kacheliba IEBC",
+    "county": "West Pokot",
+    "constituency": "Kacheliba",
+    "location": "Kacheliba Town",
+    "landmark": "Catholic Church Kacheliba",
+    "coordinates": {
+      "lat": 1.4883274,
+      "lng": 35.0222946
+    }
+  },
+  {
+    "name": "Pokot South IEBC",
+    "county": "West Pokot",
+    "constituency": "Pokot South",
+    "location": "Chesongoch Town",
+    "landmark": "DCC Offices Chesongoch",
+    "coordinates": {
+      "lat": 1.3081095,
+      "lng": 35.2066038
+    }
+  },
+  {
+    "name": "Samburu West IEBC",
+    "county": "Samburu",
+    "constituency": "Samburu West",
+    "location": "Maralal Town",
+    "landmark": "County Assembly Maralal",
+    "coordinates": {
+      "lat": 1.091951,
+      "lng": 36.694293
+    }
+  },
+  {
+    "name": "Samburu North IEBC",
+    "county": "Samburu",
+    "constituency": "Samburu North",
+    "location": "Baragoi Town",
+    "landmark": "DCC Office Baragoi",
+    "coordinates": {
+      "lat": 1.7851169,
+      "lng": 36.78733649999999
+    }
+  },
+  {
+    "name": "Samburu East IEBC",
+    "county": "Samburu",
+    "constituency": "Samburu East",
+    "location": "Wamba Town",
+    "landmark": "Wamba Parish",
+    "coordinates": {
+      "lat": 0.9321355,
+      "lng": 37.4254444
+    }
+  },
+  {
+    "name": "Kwanza IEBC",
+    "county": "Trans Nzoia",
+    "constituency": "Kwanza",
+    "location": "Kitale Town",
+    "landmark": "KFA Building Kitale",
+    "coordinates": {
+      "lat": 1.0139545,
+      "lng": 35.0044491
+    }
+  },
+  {
+    "name": "Endebess IEBC",
+    "county": "Trans Nzoia",
+    "constituency": "Endebess",
+    "location": "Endebess Town",
+    "landmark": "DCC Office Endebess",
+    "coordinates": {
+      "lat": 1.0739288,
+      "lng": 34.8564912
+    }
+  },
+  {
+    "name": "Saboti IEBC",
+    "county": "Trans Nzoia",
+    "constituency": "Saboti",
+    "location": "Saboti Town",
+    "landmark": "Old Ambwere Plaza Saboti",
+    "coordinates": {
+      "lat": 1.0149326,
+      "lng": 35.0006908
+    }
+  },
+  {
+    "name": "Kiminini IEBC",
+    "county": "Trans Nzoia",
+    "constituency": "Kiminini",
+    "location": "Kiminini Town",
+    "landmark": "Catholic Church Kiminini",
+    "coordinates": {
+      "lat": 0.8935153,
+      "lng": 34.9258526
+    }
+  },
+  {
+    "name": "Cherangany IEBC",
+    "county": "Trans Nzoia",
+    "constituency": "Cherangany",
+    "location": "Cherangany Town",
+    "landmark": "DCC Office Cherangany",
+    "coordinates": {
+      "lat": 0.9669309,
+      "lng": 35.2038559
+    }
+  },
+  {
+    "name": "Soy IEBC",
+    "county": "Uasin Gishu",
+    "constituency": "Soy",
+    "location": "Turbo Town",
+    "landmark": "Sirikwa Hotel Turbo",
+    "coordinates": {
+      "lat": 0.6342241,
+      "lng": 35.0470761
+    }
+  },
+  {
+    "name": "Turbo IEBC",
+    "county": "Uasin Gishu",
+    "constituency": "Turbo",
+    "location": "Turbo Town",
+    "landmark": "NCCK HQ Turbo",
+    "coordinates": {
+      "lat": 0.6342241,
+      "lng": 35.0470761
+    }
+  },
+  {
+    "name": "Moiben IEBC",
+    "county": "Uasin Gishu",
+    "constituency": "Moiben",
+    "location": "Moiben Town",
+    "landmark": "Ward Offices Moiben",
+    "coordinates": {
+      "lat": 0.823846,
+      "lng": 35.37638099999999
+    }
+  },
+  {
+    "name": "Ainabkoi IEBC",
+    "county": "Uasin Gishu",
+    "constituency": "Ainabkoi",
+    "location": "Eldoret East",
+    "landmark": "District HQ Ainabkoi",
+    "coordinates": {
+      "lat": 0.1883986,
+      "lng": 35.5302127
+    }
+  },
+  {
+    "name": "Kapseret IEBC",
+    "county": "Uasin Gishu",
+    "constituency": "Kapseret",
+    "location": "Eldoret Town",
+    "landmark": "Hills School Eldoret",
+    "coordinates": {
+      "lat": 0.4949628,
+      "lng": 35.2708163
+    }
+  },
+  {
+    "name": "Kesses IEBC",
+    "county": "Uasin Gishu",
+    "constituency": "Kesses",
+    "location": "Eldoret Town",
+    "landmark": "Moi University Eldoret",
+    "coordinates": {
+      "lat": 0.5204782,
+      "lng": 35.2682269
+    }
+  },
+  {
+    "name": "Marakwet East IEBC",
+    "county": "Elgeyo Marakwet",
+    "constituency": "Marakwet East",
+    "location": "Chesoi Town",
+    "landmark": "DCC Office Chesoi",
+    "coordinates": {
+      "lat": 1.070578,
+      "lng": 35.584179
+    }
+  },
+  {
+    "name": "Marakwet West IEBC",
+    "county": "Elgeyo Marakwet",
+    "constituency": "Marakwet West",
+    "location": "Kapsowar Town",
+    "landmark": "IEBC Office Kapsowar",
+    "coordinates": {
+      "lat": 0.948567,
+      "lng": 35.5084609
+    }
+  },
+  {
+    "name": "Keiyo North IEBC",
+    "county": "Elgeyo Marakwet",
+    "constituency": "Keiyo North",
+    "location": "Iten Town",
+    "landmark": "County Governor Office Iten",
+    "coordinates": {
+      "lat": 0.6702505,
+      "lng": 35.5074714
+    }
+  },
+  {
+    "name": "Keiyo South IEBC",
+    "county": "Elgeyo Marakwet",
+    "constituency": "Keiyo South",
+    "location": "Chepkorio Town",
+    "landmark": "Prime Tower Sacco Chepkorio",
+    "coordinates": {
+      "lat": 0.383333,
+      "lng": 35.533333
+    }
+  },
+  {
+    "name": "Mosop IEBC",
+    "county": "Nandi",
+    "constituency": "Mosop",
+    "location": "Kabiyet Town",
+    "landmark": "District HQ Kabiyet",
+    "coordinates": {
+      "lat": 0.413503,
+      "lng": 35.075451
+    }
+  },
+  {
+    "name": "Nandi Hills IEBC",
+    "county": "Nandi",
+    "constituency": "Nandi Hills",
+    "location": "Nandi Hills Town",
+    "landmark": "Nandi Water Supply",
+    "coordinates": {
+      "lat": 0.1835867,
+      "lng": 35.1268781
+    }
+  },
+  {
+    "name": "Emgwen IEBC",
+    "county": "Nandi",
+    "constituency": "Emgwen",
+    "location": "Kapsabet Town",
+    "landmark": "ACC Office Kapsabet",
+    "coordinates": {
+      "lat": 0.202957,
+      "lng": 35.0978385
+    }
+  },
+  {
+    "name": "Chesumei IEBC",
+    "county": "Nandi",
+    "constituency": "Chesumei",
+    "location": "Cheptarit Town",
+    "landmark": "Catholic Church Cheptarit",
+    "coordinates": {
+      "lat": 0.3179325,
+      "lng": 35.176372
+    }
+  },
+  {
+    "name": "Aldai IEBC",
+    "county": "Nandi",
+    "constituency": "Aldai",
+    "location": "Kobujoi Town",
+    "landmark": "Catholic Church Kobujoi",
+    "coordinates": {
+      "lat": 0.1056221,
+      "lng": 34.9660127
+    }
+  },
+  {
+    "name": "Tindiret IEBC",
+    "county": "Nandi",
+    "constituency": "Tindiret",
+    "location": "Tindiret Town",
+    "landmark": "World Vision Offices Tindiret",
+    "coordinates": {
+      "lat": -0.0685429,
+      "lng": 35.3356518
+    }
+  },
+  {
+    "name": "Tiaty IEBC",
+    "county": "Baringo",
+    "constituency": "Tiaty",
+    "location": "Chemolingot Town",
+    "landmark": "Ministry Of Education Chemolingot",
+    "coordinates": {
+      "lat": 0.9829066999999999,
+      "lng": 35.9778311
+    }
+  },
+  {
+    "name": "Baringo North IEBC",
+    "county": "Baringo",
+    "constituency": "Baringo North",
+    "location": "Nginyang Town",
+    "landmark": "Posta Building Nginyang",
+    "coordinates": {
+      "lat": 0.9359015,
+      "lng": 36.0223584
+    }
+  },
+  {
+    "name": "Baringo Central IEBC",
+    "county": "Baringo",
+    "constituency": "Baringo Central",
+    "location": "Kabarnet Town",
+    "landmark": "County Commissioners Kabarnet",
+    "coordinates": {
+      "lat": 0.490107,
+      "lng": 35.743418
+    }
+  },
+  {
+    "name": "Baringo South IEBC",
+    "county": "Baringo",
+    "constituency": "Baringo South",
+    "location": "Marigat Town",
+    "landmark": "District HQ Marigat",
+    "coordinates": {
+      "lat": 0.4694721000000001,
+      "lng": 35.98327430000001
+    }
+  },
+  {
+    "name": "Mogotio IEBC",
+    "county": "Baringo",
+    "constituency": "Mogotio",
+    "location": "Mogotio Town",
+    "landmark": "Boresha Sacco Mogotio",
+    "coordinates": {
+      "lat": -0.0207658,
+      "lng": 35.9560546
+    }
+  },
+  {
+    "name": "Eldama Ravine IEBC",
+    "county": "Baringo",
+    "constituency": "Eldama Ravine",
+    "location": "Eldama Ravine Town",
+    "landmark": "Law Courts Eldama Ravine",
+    "coordinates": {
+      "lat": 0.049282,
+      "lng": 35.729943
+    }
+  },
+  {
+    "name": "Laikipia West IEBC",
+    "county": "Laikipia",
+    "constituency": "Laikipia West",
+    "location": "Nyahururu Town",
+    "landmark": "Law Courts Nyahururu",
+    "coordinates": {
+      "lat": 0.0396152,
+      "lng": 36.3647828
+    }
+  },
+  {
+    "name": "Laikipia East IEBC",
+    "county": "Laikipia",
+    "constituency": "Laikipia East",
+    "location": "Nanyuki Town",
+    "landmark": "Commissioners Office Nanyuki",
+    "coordinates": {
+      "lat": 0.007441499999999999,
+      "lng": 37.0722303
+    }
+  },
+  {
+    "name": "Laikipia North IEBC",
+    "county": "Laikipia",
+    "constituency": "Laikipia North",
+    "location": "Doldol Town",
+    "landmark": "Catholic Church Doldol",
+    "coordinates": {
+      "lat": 0.3932317,
+      "lng": 37.1632119
+    }
+  },
+  {
+    "name": "Laikipia County IEBC",
+    "county": "Laikipia",
+    "constituency": "County Office",
+    "location": "Nanyuki Town",
+    "landmark": "Commissioners Office Nanyuki",
+    "coordinates": {
+      "lat": 0.007441499999999999,
+      "lng": 37.0722303
+    }
+  },
+  {
+    "name": "Nakuru Town East IEBC",
+    "county": "Nakuru",
+    "constituency": "Nakuru Town East",
+    "location": "Nakuru Town",
+    "landmark": "Mercy Mission Hospital Nakuru",
+    "coordinates": {
+      "lat": -0.2905128,
+      "lng": 36.072267
+    }
+  },
+  {
+    "name": "Nakuru Town West IEBC",
+    "county": "Nakuru",
+    "constituency": "Nakuru Town West",
+    "location": "Nakuru Town",
+    "landmark": "KFA Roundabout Nakuru",
+    "coordinates": {
+      "lat": -0.2862287000000001,
+      "lng": 36.06313069999999
+    }
+  },
+  {
+    "name": "Molo IEBC",
+    "county": "Nakuru",
+    "constituency": "Molo",
+    "location": "Molo Town",
+    "landmark": "DC's Office Molo",
+    "coordinates": {
+      "lat": -0.2491409,
+      "lng": 35.7634602
+    }
+  },
+  {
+    "name": "Njoro IEBC",
+    "county": "Nakuru",
+    "constituency": "Njoro",
+    "location": "Njoro Town",
+    "landmark": "AIC Church Njoro",
+    "coordinates": {
+      "lat": -0.3300509,
+      "lng": 35.9445081
+    }
+  },
+  {
+    "name": "Naivasha IEBC",
+    "county": "Nakuru",
+    "constituency": "Naivasha",
+    "location": "Naivasha Town",
+    "landmark": "Police Station Naivasha",
+    "coordinates": {
+      "lat": -0.7193636999999999,
+      "lng": 36.433021
+    }
+  },
+  {
+    "name": "Gilgil IEBC",
+    "county": "Nakuru",
+    "constituency": "Gilgil",
+    "location": "Gilgil Town",
+    "landmark": "KPLC Gilgil",
+    "coordinates": {
+      "lat": -0.4969704,
+      "lng": 36.31901879999999
+    }
+  },
+  {
+    "name": "Kuresoi South IEBC",
+    "county": "Nakuru",
+    "constituency": "Kuresoi South",
+    "location": "Keringet Town",
+    "landmark": "Keringet Center",
+    "coordinates": {
+      "lat": -0.3030409,
+      "lng": 36.0800793
+    }
+  },
+  {
+    "name": "Kuresoi North IEBC",
+    "county": "Nakuru",
+    "constituency": "Kuresoi North",
+    "location": "Olenguruone Town",
+    "landmark": "Sub County Offices Olenguruone",
+    "coordinates": {
+      "lat": -0.5968148999999999,
+      "lng": 35.6314191
+    }
+  },
+  {
+    "name": "Subukia IEBC",
+    "county": "Nakuru",
+    "constituency": "Subukia",
+    "location": "Subukia Town",
+    "landmark": "Subukia Nakuru highway",
+    "coordinates": {
+      "lat": -0.3030408,
+      "lng": 36.0800793
+    }
+  },
+  {
+    "name": "Rongai IEBC",
+    "county": "Nakuru",
+    "constituency": "Rongai",
+    "location": "Rongai Town",
+    "landmark": "Trading Center Rongai",
+    "coordinates": {
+      "lat": -0.1705283,
+      "lng": 35.8552598
+    }
+  },
+  {
+    "name": "Bahati IEBC",
+    "county": "Nakuru",
+    "constituency": "Bahati",
+    "location": "Bahati Town",
+    "landmark": "DC's Office Bahati",
+    "coordinates": {
+      "lat": -0.1519347,
+      "lng": 36.144656
+    }
+  },
+  {
+    "name": "Kilgoris IEBC",
+    "county": "Narok",
+    "constituency": "Kilgoris",
+    "location": "Kilgoris Town",
+    "landmark": "Cooperative Bank Kilgoris",
+    "coordinates": {
+      "lat": -1.007071,
+      "lng": 34.8808154
+    }
+  },
+  {
+    "name": "Emurua Dikkir IEBC",
+    "county": "Narok",
+    "constituency": "Emurua Dikkir",
+    "location": "Emurua Dikkir Town",
+    "landmark": "Sub County Offices Emurua Dikkir",
+    "coordinates": {
+      "lat": -1.0154422,
+      "lng": 35.1013811
+    }
+  },
+  {
+    "name": "Narok North IEBC",
+    "county": "Narok",
+    "constituency": "Narok North",
+    "location": "Narok Town",
+    "landmark": "County Commissioner Narok",
+    "coordinates": {
+      "lat": -1.0863421,
+      "lng": 35.8663432
+    }
+  },
+  {
+    "name": "Narok East IEBC",
+    "county": "Narok",
+    "constituency": "Narok East",
+    "location": "Ntulele Town",
+    "landmark": "Police Station Ntulele",
+    "coordinates": {
+      "lat": -1.0914143,
+      "lng": 35.870832
+    }
+  },
+  {
+    "name": "Narok South IEBC",
+    "county": "Narok",
+    "constituency": "Narok South",
+    "location": "Ololulunga Town",
+    "landmark": "Police Station Ololulunga",
+    "coordinates": {
+      "lat": -1.003036,
+      "lng": 35.6640447
+    }
+  },
+  {
+    "name": "Narok West IEBC",
+    "county": "Narok",
+    "constituency": "Narok West",
+    "location": "Ngoswani Town",
+    "landmark": "Solar Powerpoint Ngoswani",
+    "coordinates": {
+      "lat": -1.0914143,
+      "lng": 35.870832
+    }
+  },
+  {
+    "name": "Kajiado North IEBC",
+    "county": "Kajiado",
+    "constituency": "Kajiado North",
+    "location": "Ngong Town",
+    "landmark": "DCC Office Ngong",
+    "coordinates": {
+      "lat": -1.3567647,
+      "lng": 36.6728112
+    }
+  },
+  {
+    "name": "Kajiado Central IEBC",
+    "county": "Kajiado",
+    "constituency": "Kajiado Central",
+    "location": "Kajiado Town",
+    "landmark": "Total Petrol Station Kajiado",
+    "coordinates": {
+      "lat": -1.8420731,
+      "lng": 36.7918599
+    }
+  },
+  {
+    "name": "Kajiado East IEBC",
+    "county": "Kajiado",
+    "constituency": "Kajiado East",
+    "location": "Isinya Town",
+    "landmark": "Moi Girls High School Isinya",
+    "coordinates": {
+      "lat": -1.6916015,
+      "lng": 36.8458108
+    }
+  },
+  {
+    "name": "Kajiado West IEBC",
+    "county": "Kajiado",
+    "constituency": "Kajiado West",
+    "location": "Iloodokilani Town",
+    "landmark": "Catholic Church Iloodokilani",
+    "coordinates": {
+      "lat": -2.0980751,
+      "lng": 36.7819505
+    }
+  },
+  {
+    "name": "Kajiado South IEBC",
+    "county": "Kajiado",
+    "constituency": "Kajiado South",
+    "location": "Loitokitok Town",
+    "landmark": "DCC Office Loitokitok",
+    "coordinates": {
+      "lat": -2.924797,
+      "lng": 37.508143
+    }
+  },
+  {
+    "name": "Ainamoi IEBC",
+    "county": "Kericho",
+    "constituency": "Ainamoi",
+    "location": "Kericho Town",
+    "landmark": "Administration Police Kericho",
+    "coordinates": {
+      "lat": -0.3688967,
+      "lng": 35.286286
+    }
+  },
+  {
+    "name": "Bureti IEBC",
+    "county": "Kericho",
+    "constituency": "Bureti",
+    "location": "Litein Town",
+    "landmark": "Patnas Plaza Litein",
+    "coordinates": {
+      "lat": -0.5805402,
+      "lng": 35.1911407
+    }
+  },
+  {
+    "name": "Belgut IEBC",
+    "county": "Kericho",
+    "constituency": "Belgut",
+    "location": "Kericho Town",
+    "landmark": "DCC Office Belgut",
+    "coordinates": {
+      "lat": -0.3685715,
+      "lng": 35.2854171
+    }
+  },
+  {
+    "name": "Sigowet Soin IEBC",
+    "county": "Kericho",
+    "constituency": "Sigowet Soin",
+    "location": "Soin Town",
+    "landmark": "Police Post Soin",
+    "coordinates": {
+      "lat": -0.3688967,
+      "lng": 35.286286
+    }
+  },
+  {
+    "name": "Kipkelion East IEBC",
+    "county": "Kericho",
+    "constituency": "Kipkelion East",
+    "location": "Londiani Town",
+    "landmark": "Post Office Londiani",
+    "coordinates": {
+      "lat": -0.1634664,
+      "lng": 35.5931397
+    }
+  },
+  {
+    "name": "Kipkelion West IEBC",
+    "county": "Kericho",
+    "constituency": "Kipkelion West",
+    "location": "Kipkelion Town",
+    "landmark": "Post Office Kipkelion",
+    "coordinates": {
+      "lat": -0.207704,
+      "lng": 35.4480605
+    }
+  },
+  {
+    "name": "Chepalungu IEBC",
+    "county": "Bomet",
+    "constituency": "Chepalungu",
+    "location": "Sigor Town Bomet",
+    "landmark": "Junction to Sigor Bomet",
+    "coordinates": {
+      "lat": -0.9192697000000001,
+      "lng": 35.2992917
+    }
+  },
+  {
+    "name": "Bomet Central IEBC",
+    "county": "Bomet",
+    "constituency": "Bomet Central",
+    "location": "Bomet Town",
+    "landmark": "NCPB Bomet",
+    "coordinates": {
+      "lat": -0.7777854,
+      "lng": 35.3356518
+    }
+  },
+  {
+    "name": "Konoin IEBC",
+    "county": "Bomet",
+    "constituency": "Konoin",
+    "location": "Mogogosiek Town",
+    "landmark": "DCC Office Mogogosiek",
+    "coordinates": {
+      "lat": -0.6188334999999999,
+      "lng": 35.268587
+    }
+  },
+  {
+    "name": "Bomet East IEBC",
+    "county": "Bomet",
+    "constituency": "Bomet East",
+    "location": "Bomet Town",
+    "landmark": "Shell Petrol Station Bomet",
+    "coordinates": {
+      "lat": -0.7777854,
+      "lng": 35.3356518
+    }
+  },
+  {
+    "name": "Sotik IEBC",
+    "county": "Bomet",
+    "constituency": "Sotik",
+    "location": "Sotik Town",
+    "landmark": "CDF Office Sotik",
+    "coordinates": {
+      "lat": -0.784063,
+      "lng": 35.3391954
+    }
+  },
+  {
+    "name": "Lugari IEBC",
+    "county": "Kakamega",
+    "constituency": "Lugari",
+    "location": "Lumakanda Town",
+    "landmark": "PAG Church Lumakanda",
+    "coordinates": {
+      "lat": 0.6274708999999999,
+      "lng": 34.9738505
+    }
+  },
+  {
+    "name": "Likuyani IEBC",
+    "county": "Kakamega",
+    "constituency": "Likuyani",
+    "location": "Likuyani Town",
+    "landmark": "Subcounty Offices Likuyani",
+    "coordinates": {
+      "lat": 0.7824658999999999,
+      "lng": 35.1319324
+    }
+  },
+  {
+    "name": "Malava IEBC",
+    "county": "Kakamega",
+    "constituency": "Malava",
+    "location": "Malava Town",
+    "landmark": "Boys High School Malava",
+    "coordinates": {
+      "lat": 0.4450431,
+      "lng": 34.8541389
+    }
+  },
+  {
+    "name": "Lurambi IEBC",
+    "county": "Kakamega",
+    "constituency": "Lurambi",
+    "location": "Kakamega Town",
+    "landmark": "Huduma Center Kakamega",
+    "coordinates": {
+      "lat": 0.2802186,
+      "lng": 34.7532536
+    }
+  },
+  {
+    "name": "Navakholo IEBC",
+    "county": "Kakamega",
+    "constituency": "Navakholo",
+    "location": "Navakholo Town",
+    "landmark": "Filling Station Navakholo",
+    "coordinates": {
+      "lat": 0.2827307,
+      "lng": 34.7518631
+    }
+  },
+  {
+    "name": "Mumias West IEBC",
+    "county": "Kakamega",
+    "constituency": "Mumias West",
+    "location": "Mumias Town",
+    "landmark": "ACK Church Complex Mumias",
+    "coordinates": {
+      "lat": 0.3332218,
+      "lng": 34.4877423
+    }
+  },
+  {
+    "name": "Mumias East IEBC",
+    "county": "Kakamega",
+    "constituency": "Mumias East",
+    "location": "Mumias Town",
+    "landmark": "Catholic Church Mumias",
+    "coordinates": {
+      "lat": 0.3332218,
+      "lng": 34.4877423
+    }
+  },
+  {
+    "name": "Matungu IEBC",
+    "county": "Kakamega",
+    "constituency": "Matungu",
+    "location": "Matungu Town",
+    "landmark": "Deputy Commissioner Matungu",
+    "coordinates": {
+      "lat": 0.3867051,
+      "lng": 34.4626657
+    }
+  },
+  {
+    "name": "Butere IEBC",
+    "county": "Kakamega",
+    "constituency": "Butere",
+    "location": "Butere Town",
+    "landmark": "Deputy Commissioner Butere",
+    "coordinates": {
+      "lat": 0.2198155,
+      "lng": 34.4918988
+    }
+  },
+  {
+    "name": "Khwisero IEBC",
+    "county": "Kakamega",
+    "constituency": "Khwisero",
+    "location": "Khwisero Town",
+    "landmark": "DCC Office Khwisero",
+    "coordinates": {
+      "lat": 0.1462093,
+      "lng": 34.5860608
+    }
+  },
+  {
+    "name": "Shinyalu IEBC",
+    "county": "Kakamega",
+    "constituency": "Shinyalu",
+    "location": "Shinyalu Town",
+    "landmark": "Teachers College Shinyalu",
+    "coordinates": {
+      "lat": 0.2828574,
+      "lng": 34.7519588
+    }
+  },
+  {
+    "name": "Ikolomani IEBC",
+    "county": "Kakamega",
+    "constituency": "Ikolomani",
+    "location": "Ikolomani Town",
+    "landmark": "Malinya Primary Ikolomani",
+    "coordinates": {
+      "lat": 0.1970034,
+      "lng": 34.7312581
+    }
+  },
+  {
+    "name": "Vihiga IEBC",
+    "county": "Vihiga",
+    "constituency": "Vihiga",
+    "location": "Vihiga Town",
+    "landmark": "Vihiga High School",
+    "coordinates": {
+      "lat": 0.0378031,
+      "lng": 34.7105044
+    }
+  },
+  {
+    "name": "Sabatia IEBC",
+    "county": "Vihiga",
+    "constituency": "Sabatia",
+    "location": "Sabatia Town",
+    "landmark": "Eye Hospital Sabatia",
+    "coordinates": {
+      "lat": 0.1074522,
+      "lng": 34.7519807
+    }
+  },
+  {
+    "name": "Hamisi IEBC",
+    "county": "Vihiga",
+    "constituency": "Hamisi",
+    "location": "Hamisi Town",
+    "landmark": "Hospital Hamisi",
+    "coordinates": {
+      "lat": 0.1687462,
+      "lng": 34.8844867
+    }
+  },
+  {
+    "name": "Luanda IEBC",
+    "county": "Vihiga",
+    "constituency": "Luanda",
+    "location": "Luanda Town",
+    "landmark": "Bunyore Girls High Luanda",
+    "coordinates": {
+      "lat": 0.0257637,
+      "lng": 34.6237381
+    }
+  },
+  {
+    "name": "Emuhaya IEBC",
+    "county": "Vihiga",
+    "constituency": "Emuhaya",
+    "location": "Emuhaya Town",
+    "landmark": "Medical Hospital Emuhaya",
+    "coordinates": {
+      "lat": 0.0691175,
+      "lng": 34.6524669
+    }
+  },
+  {
+    "name": "Mt. Elgon IEBC",
+    "county": "Bungoma",
+    "constituency": "Mt. Elgon",
+    "location": "Kapsokwony Town",
+    "landmark": "Koony House Kapsokwony",
+    "coordinates": {
+      "lat": 0.8410654,
+      "lng": 34.7151012
+    }
+  },
+  {
+    "name": "Sirisia IEBC",
+    "county": "Bungoma",
+    "constituency": "Sirisia",
+    "location": "Sirisia Town",
+    "landmark": "DCC Office Sirisia",
+    "coordinates": {
+      "lat": 0.7561794,
+      "lng": 34.5057525
+    }
+  },
+  {
+    "name": "Kabuchai IEBC",
+    "county": "Bungoma",
+    "constituency": "Kabuchai",
+    "location": "Chwele Town",
+    "landmark": "Chwele Road Bungoma",
+    "coordinates": {
+      "lat": 0.8065527,
+      "lng": 34.4890465
+    }
+  },
+  {
+    "name": "Bumula IEBC",
+    "county": "Bungoma",
+    "constituency": "Bumula",
+    "location": "Bumula Town",
+    "landmark": "DCC Compound Bumula",
+    "coordinates": {
+      "lat": 0.5506835,
+      "lng": 34.4530968
+    }
+  },
+  {
+    "name": "Kanduyi IEBC",
+    "county": "Bungoma",
+    "constituency": "Kanduyi",
+    "location": "Bungoma Town",
+    "landmark": "Silos Bungoma",
+    "coordinates": {
+      "lat": 0.5695252,
+      "lng": 34.5583766
+    }
+  },
+  {
+    "name": "Webuye East IEBC",
+    "county": "Bungoma",
+    "constituency": "Webuye East",
+    "location": "Webuye Town",
+    "landmark": "DCC Compound Webuye",
+    "coordinates": {
+      "lat": 0.5992059,
+      "lng": 34.779603
+    }
+  },
+  {
+    "name": "Webuye West IEBC",
+    "county": "Bungoma",
+    "constituency": "Webuye West",
+    "location": "Webuye Town",
+    "landmark": "Highway Webuye",
+    "coordinates": {
+      "lat": 0.6045423,
+      "lng": 34.7749912
+    }
+  },
+  {
+    "name": "Kimilili IEBC",
+    "county": "Bungoma",
+    "constituency": "Kimilili",
+    "location": "Kimilili Town",
+    "landmark": "Kimilili Primary",
+    "coordinates": {
+      "lat": 0.7826812999999999,
+      "lng": 34.7202041
+    }
+  },
+  {
+    "name": "Tongaren IEBC",
+    "county": "Bungoma",
+    "constituency": "Tongaren",
+    "location": "Tongaren Town",
+    "landmark": "CDF Offices Tongaren",
+    "coordinates": {
+      "lat": 0.3385465,
+      "lng": 34.4888091
+    }
+  },
+  {
+    "name": "Teso North IEBC",
+    "county": "Busia",
+    "constituency": "Teso North",
+    "location": "Amagoro Town",
+    "landmark": "Law Courts Amagoro",
+    "coordinates": {
+      "lat": 0.6293548999999999,
+      "lng": 34.292284
+    }
+  },
+  {
+    "name": "Teso South IEBC",
+    "county": "Busia",
+    "constituency": "Teso South",
+    "location": "Busia Town",
+    "landmark": "DCC Building Busia",
+    "coordinates": {
+      "lat": 0.4611106,
+      "lng": 34.1102266
+    }
+  },
+  {
+    "name": "Nambale IEBC",
+    "county": "Busia",
+    "constituency": "Nambale",
+    "location": "Nambale Town",
+    "landmark": "DCC Building Nambale",
+    "coordinates": {
+      "lat": 0.4492533,
+      "lng": 34.2518849
+    }
+  },
+  {
+    "name": "Matayos IEBC",
+    "county": "Busia",
+    "constituency": "Matayos",
+    "location": "Matayos Town",
+    "landmark": "Assistant Commissioner Matayos",
+    "coordinates": {
+      "lat": 0.3617923,
+      "lng": 34.1684918
+    }
+  },
+  {
+    "name": "Butula IEBC",
+    "county": "Busia",
+    "constituency": "Butula",
+    "location": "Butula Town",
+    "landmark": "Police Station Butula",
+    "coordinates": {
+      "lat": 0.3416124,
+      "lng": 34.3352003
+    }
+  },
+  {
+    "name": "Funyula IEBC",
+    "county": "Busia",
+    "constituency": "Funyula",
+    "location": "Funyula Town",
+    "landmark": "Moody Awori Primary Funyula",
+    "coordinates": {
+      "lat": 0.2811072,
+      "lng": 34.1165198
+    }
+  },
+  {
+    "name": "Budalangi IEBC",
+    "county": "Busia",
+    "constituency": "Budalangi",
+    "location": "Budalangi Town",
+    "landmark": "Primary School Budalangi",
+    "coordinates": {
+      "lat": 0.0773679,
+      "lng": 34.041865
+    }
+  },
+  {
+    "name": "Ugenya IEBC",
+    "county": "Siaya",
+    "constituency": "Ugenya",
+    "location": "Ukwala Town",
+    "landmark": "Posta Ukwala",
+    "coordinates": {
+      "lat": 0.1953756,
+      "lng": 34.1893473
+    }
+  },
+  {
+    "name": "Ugunja IEBC",
+    "county": "Siaya",
+    "constituency": "Ugunja",
+    "location": "Ugunja Town",
+    "landmark": "Savana Hotel Ugunja",
+    "coordinates": {
+      "lat": 0.1863726,
+      "lng": 34.2888729
+    }
+  },
+  {
+    "name": "Alego Usonga IEBC",
+    "county": "Siaya",
+    "constituency": "Alego Usonga",
+    "location": "Siaya Town",
+    "landmark": "Commissioner Office Siaya",
+    "coordinates": {
+      "lat": 0.05818229999999999,
+      "lng": 34.2885078
+    }
+  },
+  {
+    "name": "Gem IEBC",
+    "county": "Siaya",
+    "constituency": "Gem",
+    "location": "Yala Town",
+    "landmark": "Sawagongo High School Yala",
+    "coordinates": {
+      "lat": 0.0765046,
+      "lng": 34.457948
+    }
+  },
+  {
+    "name": "Bondo IEBC",
+    "county": "Siaya",
+    "constituency": "Bondo",
+    "location": "Bondo Town",
+    "landmark": "Law Courts Bondo",
+    "coordinates": {
+      "lat": -0.09804679999999999,
+      "lng": 34.276514
+    }
+  },
+  {
+    "name": "Rarieda IEBC",
+    "county": "Siaya",
+    "constituency": "Rarieda",
+    "location": "Kalandini Town",
+    "landmark": "Kalandini Market",
+    "coordinates": {
+      "lat": -0.170409,
+      "lng": 34.3699907
+    }
+  },
+  {
+    "name": "Nyando IEBC",
+    "county": "Kisumu",
+    "constituency": "Nyando",
+    "location": "Awasi Town",
+    "landmark": "DCC Compound Awasi",
+    "coordinates": {
+      "lat": -0.0917016,
+      "lng": 34.7679568
+    }
+  },
+  {
+    "name": "Muhoroni IEBC",
+    "county": "Kisumu",
+    "constituency": "Muhoroni",
+    "location": "Muhoroni Town",
+    "landmark": "Pawtenge Primary Muhoroni",
+    "coordinates": {
+      "lat": -0.0917016,
+      "lng": 34.7679568
+    }
+  },
+  {
+    "name": "Nyakach IEBC",
+    "county": "Kisumu",
+    "constituency": "Nyakach",
+    "location": "Pap Onditi Town",
+    "landmark": "DCC Compound Pap Onditi",
+    "coordinates": {
+      "lat": -0.3130753,
+      "lng": 34.9368801
+    }
+  },
+  {
+    "name": "Seme IEBC",
+    "county": "Kisumu",
+    "constituency": "Seme",
+    "location": "Kombewa Town",
+    "landmark": "DCC Compound Kombewa",
+    "coordinates": {
+      "lat": -0.1099777,
+      "lng": 34.5256665
+    }
+  },
+  {
+    "name": "Kisumu West IEBC",
+    "county": "Kisumu",
+    "constituency": "Kisumu West",
+    "location": "Kisumu Town",
+    "landmark": "Huduma Centre Kisumu",
+    "coordinates": {
+      "lat": -0.1093072,
+      "lng": 34.7501027
+    }
+  },
+  {
+    "name": "Kisumu East IEBC",
+    "county": "Kisumu",
+    "constituency": "Kisumu East",
+    "location": "Kisumu Town",
+    "landmark": "Mamboleo Show Ground Kisumu",
+    "coordinates": {
+      "lat": -0.0681106,
+      "lng": 34.7853303
+    }
+  },
+  {
+    "name": "Kisumu Central IEBC",
+    "county": "Kisumu",
+    "constituency": "Kisumu Central",
+    "location": "Kisumu Town",
+    "landmark": "Huduma Centre Kisumu Central",
+    "coordinates": {
+      "lat": -0.1093072,
+      "lng": 34.7501027
+    }
+  },
+  {
+    "name": "Kasipul IEBC",
+    "county": "Homa Bay",
+    "constituency": "Kasipul",
+    "location": "Kosele Town",
+    "landmark": "DCC Compound Kosele",
+    "coordinates": {
+      "lat": -0.42702,
+      "lng": 34.689657
+    }
+  },
+  {
+    "name": "Kabondo Kasipul IEBC",
+    "county": "Homa Bay",
+    "constituency": "Kabondo Kasipul",
+    "location": "Kadongo Town",
+    "landmark": "Kisii Road Kadongo",
+    "coordinates": {
+      "lat": -0.4469744,
+      "lng": 34.8912705
+    }
+  },
+  {
+    "name": "Karachuonyo IEBC",
+    "county": "Homa Bay",
+    "constituency": "Karachuonyo",
+    "location": "Kendu Bay Town",
+    "landmark": "DCC Complex Kendu Bay",
+    "coordinates": {
+      "lat": -0.3695085,
+      "lng": 34.6502311
+    }
+  },
+  {
+    "name": "Rangwe IEBC",
+    "county": "Homa Bay",
+    "constituency": "Rangwe",
+    "location": "Rangwe Town",
+    "landmark": "DCC Complex Rangwe",
+    "coordinates": {
+      "lat": -0.6001342,
+      "lng": 34.5839848
+    }
+  },
+  {
+    "name": "Homa Bay Town IEBC",
+    "county": "Homa Bay",
+    "constituency": "Homa Bay Town",
+    "location": "Homa Bay Town",
+    "landmark": "CC Complex Homa Bay",
+    "coordinates": {
+      "lat": -0.5375899,
+      "lng": 34.4562264
+    }
+  },
+  {
+    "name": "Ndhiwa IEBC",
+    "county": "Homa Bay",
+    "constituency": "Ndhiwa",
+    "location": "Ndhiwa Town",
+    "landmark": "DCC Complex Ndhiwa",
+    "coordinates": {
+      "lat": -0.7298697,
+      "lng": 34.3671172
+    }
+  },
+  {
+    "name": "Suba North IEBC",
+    "county": "Homa Bay",
+    "constituency": "Suba North",
+    "location": "Mbita Town",
+    "landmark": "Subcounty Compound Mbita",
+    "coordinates": {
+      "lat": -0.4326692,
+      "lng": 34.209363
+    }
+  },
+  {
+    "name": "Suba South IEBC",
+    "county": "Homa Bay",
+    "constituency": "Suba South",
+    "location": "Magunga Town",
+    "landmark": "Trading Centre Magunga",
+    "coordinates": {
+      "lat": -0.6893437,
+      "lng": 34.1518039
+    }
+  },
+  {
+    "name": "Rongo IEBC",
+    "county": "Migori",
+    "constituency": "Rongo",
+    "location": "Rongo Town",
+    "landmark": "DCC Office Rongo",
+    "coordinates": {
+      "lat": -0.7578667,
+      "lng": 34.6030668
+    }
+  },
+  {
+    "name": "Awendo IEBC",
+    "county": "Migori",
+    "constituency": "Awendo",
+    "location": "Awendo Town",
+    "landmark": "NCPB Awendo",
+    "coordinates": {
+      "lat": -0.9004921,
+      "lng": 34.5354594
+    }
+  },
+  {
+    "name": "Suna East IEBC",
+    "county": "Migori",
+    "constituency": "Suna East",
+    "location": "Migori Town",
+    "landmark": "County IEBC Office Migori",
+    "coordinates": {
+      "lat": -1.0703026,
+      "lng": 34.4797881
+    }
+  },
+  {
+    "name": "Suna West IEBC",
+    "county": "Migori",
+    "constituency": "Suna West",
+    "location": "Migori Town",
+    "landmark": "NCPB Migori",
+    "coordinates": {
+      "lat": -0.9339917,
+      "lng": 34.2222988
+    }
+  },
+  {
+    "name": "Uriri IEBC",
+    "county": "Migori",
+    "constituency": "Uriri",
+    "location": "Uriri Town",
+    "landmark": "DCC Office Uriri",
+    "coordinates": {
+      "lat": -0.9521531999999998,
+      "lng": 34.4420073
+    }
+  },
+  {
+    "name": "Nyatike IEBC",
+    "county": "Migori",
+    "constituency": "Nyatike",
+    "location": "Macalder Town",
+    "landmark": "County Government Macalder",
+    "coordinates": {
+      "lat": -0.9711174999999999,
+      "lng": 34.2574417
+    }
+  },
+  {
+    "name": "Kuria West IEBC",
+    "county": "Migori",
+    "constituency": "Kuria West",
+    "location": "Kehancha Town",
+    "landmark": "Law Courts Kehancha",
+    "coordinates": {
+      "lat": -1.1939843,
+      "lng": 34.6165033
+    }
+  },
+  {
+    "name": "Kuria East IEBC",
+    "county": "Migori",
+    "constituency": "Kuria East",
+    "location": "Kegonga Town",
+    "landmark": "DCC Office Kegonga",
+    "coordinates": {
+      "lat": -1.2572825,
+      "lng": 34.6441689
+    }
+  },
+  {
+    "name": "Bonchari IEBC",
+    "county": "Kisii",
+    "constituency": "Bonchari",
+    "location": "Suneka Town",
+    "landmark": "Itierio Boys High Suneka",
+    "coordinates": {
+      "lat": -0.678642,
+      "lng": 34.7143185
+    }
+  },
+  {
+    "name": "South Mugirango IEBC",
+    "county": "Kisii",
+    "constituency": "South Mugirango",
+    "location": "Nyamarambe Town",
+    "landmark": "DCC Office Nyamarambe",
+    "coordinates": {
+      "lat": -0.6711267,
+      "lng": 34.7689868
+    }
+  },
+  {
+    "name": "Bomachoge Borabu IEBC",
+    "county": "Kisii",
+    "constituency": "Bomachoge Borabu",
+    "location": "Kenyanya Town",
+    "landmark": "DCC Office Kenyanya",
+    "coordinates": {
+      "lat": -0.677334,
+      "lng": 34.779603
+    }
+  },
+  {
+    "name": "Bobasi IEBC",
+    "county": "Kisii",
+    "constituency": "Bobasi",
+    "location": "Itumbe Town",
+    "landmark": "DCC Office Itumbe",
+    "coordinates": {
+      "lat": -0.7361111,
+      "lng": 34.6547222
+    }
+  },
+  {
+    "name": "Bomachoge Chache IEBC",
+    "county": "Kisii",
+    "constituency": "Bomachoge Chache",
+    "location": "Ogembo Town",
+    "landmark": "DCC Office Ogembo",
+    "coordinates": {
+      "lat": -0.8003002,
+      "lng": 34.7257313
+    }
+  },
+  {
+    "name": "Nyaribari Masaba IEBC",
+    "county": "Kisii",
+    "constituency": "Nyaribari Masaba",
+    "location": "Masimba Town",
+    "landmark": "DCC Office Masimba",
+    "coordinates": {
+      "lat": -0.677334,
+      "lng": 34.779603
+    }
+  },
+  {
+    "name": "Nyaribari Chache IEBC",
+    "county": "Kisii",
+    "constituency": "Nyaribari Chache",
+    "location": "Kisii Town",
+    "landmark": "Commissioner Office Kisii",
+    "coordinates": {
+      "lat": -0.677334,
+      "lng": 34.779603
+    }
+  },
+  {
+    "name": "Kitutu Chache North IEBC",
+    "county": "Kisii",
+    "constituency": "Kitutu Chache North",
+    "location": "Marani Town",
+    "landmark": "Subcounty Office Marani",
+    "coordinates": {
+      "lat": -0.5809856,
+      "lng": 34.800216
+    }
+  },
+  {
+    "name": "Kitutu Chache South IEBC",
+    "county": "Kisii",
+    "constituency": "Kitutu Chache South",
+    "location": "Kisii Town",
+    "landmark": "Commissioner Office Kisii South",
+    "coordinates": {
+      "lat": -0.6773215,
+      "lng": 34.7795459
+    }
+  },
+  {
+    "name": "Kitutu Masaba IEBC",
+    "county": "Nyamira",
+    "constituency": "Kitutu Masaba",
+    "location": "Manga Town",
+    "landmark": "Manga Cliff",
+    "coordinates": {
+      "lat": -0.6217172,
+      "lng": 34.82861219999999
+    }
+  },
+  {
+    "name": "West Mugirango IEBC",
+    "county": "Nyamira",
+    "constituency": "West Mugirango",
+    "location": "Nyamira Town",
+    "landmark": "Law Courts Nyamira",
+    "coordinates": {
+      "lat": -0.5601535,
+      "lng": 34.9340514
+    }
+  },
+  {
+    "name": "North Mugirango IEBC",
+    "county": "Nyamira",
+    "constituency": "North Mugirango",
+    "location": "Ekerenyo Town",
+    "landmark": "Bus Stage Ekerenyo",
+    "coordinates": {
+      "lat": -0.5306225,
+      "lng": 34.9878636
+    }
+  },
+  {
+    "name": "Borabu IEBC",
+    "county": "Nyamira",
+    "constituency": "Borabu",
+    "location": "Borabu Town",
+    "landmark": "DCC Office Borabu",
+    "coordinates": {
+      "lat": -0.7573770999999999,
+      "lng": 35.0167866
+    }
+  },
+  {
+    "name": "Westlands IEBC",
+    "county": "Nairobi",
+    "constituency": "Westlands",
+    "location": "Westlands Nairobi",
+    "landmark": "Safaricom Centre Westlands",
+    "coordinates": {
+      "lat": -1.2609472,
+      "lng": 36.7988633
+    }
+  },
+  {
+    "name": "Dagoretti North IEBC",
+    "county": "Nairobi",
+    "constituency": "Dagoretti North",
+    "location": "Dagoretti North Nairobi",
+    "landmark": "Nakumatt Junction Dagoretti",
+    "coordinates": {
+      "lat": -1.299095,
+      "lng": 36.762696
+    }
+  },
+  {
+    "name": "Dagoretti South IEBC",
+    "county": "Nairobi",
+    "constituency": "Dagoretti South",
+    "location": "Dagoretti South Nairobi",
+    "landmark": "DCC Office Dagoretti South",
+    "coordinates": {
+      "lat": -1.3006156,
+      "lng": 36.7774331
+    }
+  },
+  {
+    "name": "Langata IEBC",
+    "county": "Nairobi",
+    "constituency": "Langata",
+    "location": "Langata Nairobi",
+    "landmark": "Langata Subcounty HQ",
+    "coordinates": {
+      "lat": -1.3164042,
+      "lng": 36.81719349999999
+    }
+  },
+  {
+    "name": "Kibra IEBC",
+    "county": "Nairobi",
+    "constituency": "Kibra",
+    "location": "Kibra Nairobi",
+    "landmark": "Huduma Centre Kibra",
+    "coordinates": {
+      "lat": -1.3060934,
+      "lng": 36.7877858
+    }
+  },
+  {
+    "name": "Roysambu IEBC",
+    "county": "Nairobi",
+    "constituency": "Roysambu",
+    "location": "Kahawa West Nairobi",
+    "landmark": "ACC Office Kahawa West",
+    "coordinates": {
+      "lat": -1.1858857,
+      "lng": 36.9069054
+    }
+  },
+  {
+    "name": "Kasarani IEBC",
+    "county": "Nairobi",
+    "constituency": "Kasarani",
+    "location": "Kasarani Nairobi",
+    "landmark": "Chiefs Office Kasarani",
+    "coordinates": {
+      "lat": -1.201788,
+      "lng": 36.897735
+    }
+  },
+  {
+    "name": "Ruaraka IEBC",
+    "county": "Nairobi",
+    "constituency": "Ruaraka",
+    "location": "Ruaraka Nairobi",
+    "landmark": "Lexx Place Hotel Ruaraka",
+    "coordinates": {
+      "lat": -1.2481254,
+      "lng": 36.871273
+    }
+  },
+  {
+    "name": "Embakasi South IEBC",
+    "county": "Nairobi",
+    "constituency": "Embakasi South",
+    "location": "Embakasi South Nairobi",
+    "landmark": "Equity Afya Hospital Embakasi",
+    "coordinates": {
+      "lat": -1.3125995,
+      "lng": 36.8971557
+    }
+  },
+  {
+    "name": "Embakasi North IEBC",
+    "county": "Nairobi",
+    "constituency": "Embakasi North",
+    "location": "Embakasi North Nairobi",
+    "landmark": "DCC Office Embakasi North",
+    "coordinates": {
+      "lat": -1.2754853,
+      "lng": 36.8989336
+    }
+  },
+  {
+    "name": "Embakasi Central IEBC",
+    "county": "Nairobi",
+    "constituency": "Embakasi Central",
+    "location": "Kayole Nairobi",
+    "landmark": "DO Office Kayole",
+    "coordinates": {
+      "lat": -1.2773942,
+      "lng": 36.9157976
+    }
+  },
+  {
+    "name": "Embakasi East IEBC",
+    "county": "Nairobi",
+    "constituency": "Embakasi East",
+    "location": "Embakasi East Nairobi",
+    "landmark": "EASA Aviation School Nairobi",
+    "coordinates": {
+      "lat": -1.3148443,
+      "lng": 36.9037142
+    }
+  },
+  {
+    "name": "Embakasi West IEBC",
+    "county": "Nairobi",
+    "constituency": "Embakasi West",
+    "location": "Tena Nairobi",
+    "landmark": "Shell Petrol Tena",
+    "coordinates": {
+      "lat": -1.2911423,
+      "lng": 36.888251
+    }
+  },
+  {
+    "name": "Makadara IEBC",
+    "county": "Nairobi",
+    "constituency": "Makadara",
+    "location": "Makadara Nairobi",
+    "landmark": "CIPU Office Makadara",
+    "coordinates": {
+      "lat": -1.2936224,
+      "lng": 36.86203769999999
+    }
+  },
+  {
+    "name": "Kamukunji IEBC",
+    "county": "Nairobi",
+    "constituency": "Kamukunji",
+    "location": "Kamukunji Nairobi",
+    "landmark": "DCC Office Kamukunji",
+    "coordinates": {
+      "lat": -1.2847801,
+      "lng": 36.8337743
+    }
+  },
+  {
+    "name": "Starehe IEBC",
+    "county": "Nairobi",
+    "constituency": "Starehe",
+    "location": "Starehe Nairobi",
+    "landmark": "Kenya Railways Nairobi",
+    "coordinates": {
+      "lat": -1.2920659,
+      "lng": 36.8219462
+    }
+  },
+  {
+    "name": "Mathare IEBC",
+    "county": "Nairobi",
+    "constituency": "Mathare",
+    "location": "Mathare Nairobi",
+    "landmark": "DCC Office Mathare",
+    "coordinates": {
+      "lat": -1.2733143,
+      "lng": 36.8492199
+    }
+  }
+]
