@@ -16,15 +16,26 @@ initializeCronJobs();
 
 // Middleware
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://tuko-kadi.netlify.app"
+];
+
 app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://tuko-kadi.netlify.app"
-  ],
-  credentials: false,
-  methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"]
+  origin: function(origin, callback) {
+    // allow requests with no origin (curl, mobile apps, server-to-server)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.indexOf(origin) === -1) {
+      const msg = `The CORS policy for this site does not allow access from the specified Origin.`;
+      return callback(new Error(msg), false);
+    }
+    return callback(null, true);
+  },
+  methods: ["GET","POST","PUT","PATCH","DELETE","OPTIONS"],
+  allowedHeaders: ["Content-Type","Authorization","x-session-id","x-source"],
+  credentials: false 
 }));
+
 
 
 app.use(express.json());
