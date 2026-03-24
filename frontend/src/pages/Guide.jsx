@@ -236,7 +236,7 @@ const Guide = () => {
                 
                   <div className="flex items-start gap-6 mb-6">
                     <div
-                      className={`w-20 h-20 rounded-2xl bg-${step.color}-500/10 border-2 border-${step.color}-500/30 flex items-center justify-center text-${step.color}-400`}
+                      className={`w-14 h-14 sm:h-20 sm:w-20 rounded-2xl bg-${step.color}-500/10 border-2 border-${step.color}-500/30 flex items-center justify-center text-${step.color}-400`}
                     >
                       {step.icon}
                     </div>
@@ -244,10 +244,10 @@ const Guide = () => {
                       <div className="text-zinc-600 text-xs font-black uppercase tracking-widest mb-1">
                         Step {step.id} of 6
                       </div>
-                      <h2 className="text-3xl font-black text-white mb-2">
+                      <h2 className="text-xl md:text-3xl font-black text-white mb-2">
                         {step.title}
                       </h2>
-                      <p className="text-zinc-400 text-lg leading-relaxed">
+                      <p className="text-zinc-400 text-md md:text-lg leading-relaxed">
                         {step.description}
                       </p>
                     </div>
@@ -258,7 +258,7 @@ const Guide = () => {
                     {step.requirements.map((req, i) => (
                       <div
                         key={i}
-                        className="flex items-start gap-4 bg-zinc-900/50 border border-zinc-800 rounded-xl p-5"
+                        className="flex items-start gap-4 bg-zinc-900/50 border border-zinc-800 rounded-xl p-3 md:p-5"
                       >
                         <div
                           className={`w-6 h-6 rounded-full bg-${step.color}-500/20 border-2 border-${step.color}-500/40 flex items-center justify-center flex-shrink-0 mt-0.5`}
@@ -268,7 +268,7 @@ const Guide = () => {
                             size={14}
                           />
                         </div>
-                        <p className="text-zinc-300 font-medium leading-relaxed">
+                        <p className="text-zinc-300 font-medium leading-relaxed text-sm md:text-md">
                           {req}
                         </p>
                       </div>
@@ -281,21 +281,22 @@ const Guide = () => {
                       onClick={() => setActiveStep(Math.max(1, activeStep - 1))}
                       disabled={activeStep === 1}
                       className="flex items-center gap-1 sm:gap-2 text-zinc-400 hover:text-white font-bold
-                    px-3 sm:px-6 py-2.5 sm:py-3 rounded-xl border border-transparent hover:border-emerald-500/40
-                    disabled:opacity-30 disabled:cursor-not-allowed transition-all cursor-pointer text-sm sm:text-base"
+                    px-3 sm:px-4 py-2.5 sm:py-2 rounded-xl border border-transparent hover:border-emerald-500/40
+                    disabled:opacity-30 disabled:cursor-not-allowed transition-all cursor-pointer text-xs md:text-sm sm:text-base"
                     >
                       <FiChevronRight size={20} className="rotate-180" />
                       Previous Step
                     </button>
 
-                    <div className="text-zinc-600 font-black text-sm">
+                    <div className="text-zinc-600 font-black text-xs md:text-sm gap-2">
                       Step {activeStep} of 6
                     </div>
 
                     <button
                       onClick={() => setActiveStep(Math.min(6, activeStep + 1))}
                       disabled={activeStep === 6}
-                       className={`flex items-center gap-1 sm:gap-2 font-black px-4 sm:px-2 py-2.5 sm:py-3 rounded-xl transition-all cursor-pointer text-sm sm:text-sm ${
+                       className={`flex items-center  md:gap-1 sm:gap-2 font-black px-2 sm:px-1 py-2.5 sm:py-2 rounded-xl 
+                        transition-all cursor-pointer text-xs md:text-sm sm:text-sm ${
                       activeStep === 6
                         ? "bg-zinc-800 text-zinc-600 cursor-not-allowed"
                         : "bg-emerald-500 hover:bg-emerald-400 text-black shadow-lg shadow-emerald-500/20 hover:scale-105"
