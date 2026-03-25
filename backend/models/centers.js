@@ -72,14 +72,14 @@ centerSchema.index({ geoLocation: '2dsphere' }); // for $nearSphere queries
 centerSchema.index({ coordinates: '2dsphere' });  // keep your existing index
 
 
-centerSchema.pre('save', function (next) {
+centerSchema.pre('save', function () {
   if (this.coordinates && this.coordinates.lat != null && this.coordinates.lng != null) {
     this.geoLocation = {
       type: 'Point',
       coordinates: [this.coordinates.lng, this.coordinates.lat] // GeoJSON: [lng, lat]
     };
   }
-  next();
+  
 });
 
 // ── Instance: calculate distance (km) from a point ───────────────────────────
