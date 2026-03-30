@@ -27,12 +27,10 @@ const centerSchema = new mongoose.Schema({
     type: String,
     trim: true
   },
-
   coordinates: {
     lat: { type: Number, required: true },
     lng: { type: Number, required: true }
   },
-
   geoLocation: {
     type: {
       type: String,
@@ -48,15 +46,22 @@ const centerSchema = new mongoose.Schema({
   landmark: { type: String, trim: true },
   workingHours: { type: String, default: '8:00 AM - 5:00 PM' },
   isActive: { type: Boolean, default: true },
-
-
-  submittedBy: { type: String, default: 'public' }, // 'admin' | 'public'
+  isVerified: { type: Boolean, default: false, index: true },
+  verifiers: [{ type: String }],
+  verificationCount: { type: Number, default: 0 },
+  verificationThreshold: { type: Number, default: 3 },
+  
+  expireAt: {
+    type: Date,
+    index: true 
+  },
+  
+  submittedBy: { type: String, default: 'public' },
   type: {
     type: String,
     enum: ['county_office', 'mobile_unit', 'school', 'community_hall', 'other'],
     default: 'other'
   },
-
   currentQueue: {
     waitTime:    { type: Number, default: 0 },
     status:      { type: String, enum: ['FAST MOVING', 'MODERATE', 'LONG WAIT', 'VERY LONG'], default: 'FAST MOVING' },
@@ -67,22 +72,33 @@ const centerSchema = new mongoose.Schema({
   timestamps: true
 });
 
+centerSchema.index({ geoLocation: '2dsphere' });
+centerSchema.index({ coordinates: '2dsphere' });
+centerSchema.index({ isVerified: 1, isActive: 1 });
 
-centerSchema.index({ geoLocation: '2dsphere' }); // for $nearSphere queries
-centerSchema.index({ coordinates: '2dsphere' });  // keep your existing index
 
+centerSchema.index({ expireAt: 1 }, { expireAfterSeconds: 0 });
 
 centerSchema.pre('save', function () {
   if (this.coordinates && this.coordinates.lat != null && this.coordinates.lng != null) {
     this.geoLocation = {
       type: 'Point',
-      coordinates: [this.coordinates.lng, this.coordinates.lat] // GeoJSON: [lng, lat]
+      coordinates: [this.coordinates.lng, this.coordinates.lat]
     };
   }
   
+
+  if (!this.isVerified) {
+    
+    if (!this.expireAt || this.isNew) {
+      this.expireAt = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000); // 14 days
+    }
+  } else {
+   
+    this.expireAt = undefined;
+  }
 });
 
-// ── Instance: calculate distance (km) from a point ───────────────────────────
 centerSchema.methods.calculateDistance = function (userLat, userLng) {
   const R = 6371;
   const dLat = toRad(userLat - this.coordinates.lat);
@@ -117,9 +133,8 @@ centerSchema.methods.updateQueueFromReports = async function () {
   await this.save();
 };
 
-
 centerSchema.statics.findNearby = async function (lat, lng, maxDistanceKm = 10) {
-  const centers = await this.find({ isActive: true });
+  const centers = await this.find({ isActive: true, isVerified: true });
   return centers
     .map(center => ({ ...center.toObject(), distance: center.calculateDistance(lat, lng), distanceText: `${center.calculateDistance(lat, lng).toFixed(1)} km` }))
     .filter(c => c.distance <= maxDistanceKm)
