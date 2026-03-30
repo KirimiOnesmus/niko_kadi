@@ -77,7 +77,7 @@ centerSchema.index({ coordinates: '2dsphere' });
 centerSchema.index({ isVerified: 1, isActive: 1 });
 
 
-centerSchema.index({ expireAt: 1 }, { expireAfterSeconds: 0 });
+
 
 centerSchema.pre('save', function () {
   if (this.coordinates && this.coordinates.lat != null && this.coordinates.lng != null) {
