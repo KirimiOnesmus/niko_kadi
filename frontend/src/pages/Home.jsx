@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { FiArrowRight, FiUsers, FiMapPin, FiCheckCircle } from 'react-icons/fi'
+import { FiArrowRight, FiUsers, FiMapPin, FiCheckCircle, FiClock } from 'react-icons/fi'
 import { BsTwitterX, BsTiktok, BsInstagram } from 'react-icons/bs'
 import { WeeklyTopics } from '../compenents'
 
@@ -32,33 +32,120 @@ const reasons = [
   },
 ]
 
-// const timeline = [
-//   { date: 'March 17–19', event: 'Activists camp at Kasarani IEBC, register 641 voters in one day' },
-//   { date: 'March 19', event: '1,000+ Chuka University students walk out after being told to wait — it goes viral' },
-//   { date: 'Week of March 17', event: 'Nyeri reports 500+ youth registrations. Long queues form across Nairobi' },
-//   { date: 'March 30', event: 'Official IEBC mass drive kicks off — 30 days, targeting 2.5M new voters' },
-//   { date: '2027', event: 'General Election. The youth register decides who leads Kenya next' },
-// ]
+const CountdownTimer = () => {
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+    total: 0
+  })
+
+  useEffect(() => {
+   
+    const endDate = new Date('2026-04-28T23:59:59+03:00')
+
+    const calculateTimeLeft = () => {
+      const now = new Date()
+      const difference = endDate - now
+
+      if (difference > 0) {
+        setTimeLeft({
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+          minutes: Math.floor((difference / 1000 / 60) % 60),
+          seconds: Math.floor((difference / 1000) % 60),
+          total: difference
+        })
+      } else {
+        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0, total: 0 })
+      }
+    }
+
+    calculateTimeLeft()
+    const timer = setInterval(calculateTimeLeft, 1000)
+
+    return () => clearInterval(timer)
+  }, [])
+
+  if (timeLeft.total === 0) {
+    return (
+      <div className="inline-flex items-center gap-2 sm:gap-3 bg-rose-500/10 backdrop-blur-sm border-2 border-rose-500/30 rounded-full px-4 sm:px-5 py-2 sm:py-2.5 mb-8 sm:mb-12">
+        <span className="w-2 h-2 rounded-full bg-rose-400 shrink-0" />
+        <span className="text-rose-400 text-xs sm:text-sm font-bold tracking-wide uppercase">
+          Registration Drive Ended
+        </span>
+      </div>
+    )
+  }
+
+  return (
+    <div className="mb-8 sm:mb-12">
+
+      <div className="sm:hidden inline-flex items-center gap-2 bg-emerald-500/10 backdrop-blur-sm border-2 border-emerald-500/30 rounded-full px-4 py-2.5">
+        <FiClock size={14} className="text-emerald-400 shrink-0" />
+        <span className="text-emerald-400 text-xs font-bold tracking-wide">
+          {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m left
+        </span>
+      </div>
+
+    
+      <div className="hidden sm:block">
+        <div className="inline-flex items-center gap-2 bg-emerald-500/10 backdrop-blur-sm border-2 border-emerald-500/30 rounded-full px-5 py-2.5 mb-4">
+          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-lg shadow-emerald-400/50 shrink-0" />
+          <span className="text-emerald-400 text-sm font-bold tracking-wide uppercase">
+            Drive ends April 28, 2026
+          </span>
+        </div>
+        
+        <div className="grid grid-cols-4 gap-3 max-w-lg">
+          <div className="bg-zinc-900/50 backdrop-blur-sm border-2 border-emerald-500/20 rounded-2xl p-4 text-center">
+            <div className="text-3xl font-black bg-gradient-to-br from-emerald-400 to-emerald-300 bg-clip-text text-transparent mb-1">
+              {String(timeLeft.days).padStart(2, '0')}
+            </div>
+            <div className="text-zinc-500 text-xs font-bold uppercase tracking-wider">Days</div>
+          </div>
+          
+          <div className="bg-zinc-900/50 backdrop-blur-sm border-2 border-emerald-500/20 rounded-2xl p-4 text-center">
+            <div className="text-3xl font-black bg-gradient-to-br from-emerald-400 to-emerald-300 bg-clip-text text-transparent mb-1">
+              {String(timeLeft.hours).padStart(2, '0')}
+            </div>
+            <div className="text-zinc-500 text-xs font-bold uppercase tracking-wider">Hours</div>
+          </div>
+          
+          <div className="bg-zinc-900/50 backdrop-blur-sm border-2 border-emerald-500/20 rounded-2xl p-4 text-center">
+            <div className="text-3xl font-black bg-gradient-to-br from-emerald-400 to-emerald-300 bg-clip-text text-transparent mb-1">
+              {String(timeLeft.minutes).padStart(2, '0')}
+            </div>
+            <div className="text-zinc-500 text-xs font-bold uppercase tracking-wider">Minutes</div>
+          </div>
+          
+          <div className="bg-zinc-900/50 backdrop-blur-sm border-2 border-emerald-500/20 rounded-2xl p-4 text-center">
+            <div className="text-3xl font-black bg-gradient-to-br from-emerald-400 to-emerald-300 bg-clip-text text-transparent mb-1">
+              {String(timeLeft.seconds).padStart(2, '0')}
+            </div>
+            <div className="text-zinc-500 text-xs font-bold uppercase tracking-wider">Seconds</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
 
 const Home = () => {
   return (
     <div className="min-h-screen bg-zinc-950 text-white font-sans overflow-x-hidden">
 
-   
+
       <section className="relative px-4 sm:px-6 pt-12 pb-24 sm:pb-40 max-w-6xl mx-auto">
         <div className="absolute top-0 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-emerald-500/20 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute top-20 right-1/4 w-48 sm:w-80 h-48 sm:h-80 bg-rose-500/10 rounded-full blur-3xl pointer-events-none" />
 
         <div className="relative z-10">
-        
-          <div className="inline-flex items-center gap-2 sm:gap-3 bg-emerald-500/10 backdrop-blur-sm border-2 border-emerald-500/30 rounded-full px-4 sm:px-5 py-2 sm:py-2.5 mb-8 sm:mb-12">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-lg shadow-emerald-400/50 shrink-0" />
-            <span className="text-emerald-400 text-xs sm:text-sm font-bold tracking-wide uppercase">
-              Drive starts March 30, 2026
-            </span>
-          </div>
+   
+          <CountdownTimer />
 
-       
+     
           <h1 className="text-4xl sm:text-6xl font-black text-white leading-none tracking-tighter mb-4 sm:mb-8">
             Niko Kadi.
           </h1>
@@ -73,7 +160,7 @@ const Home = () => {
             awakening Kenya has seen in years. This is your chance to be part of it.
           </p>
 
-          
+          {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-start gap-3 sm:gap-5 mb-10 sm:mb-16">
             <Link
               to="/pin-location"
@@ -94,7 +181,7 @@ const Home = () => {
             </Link>
           </div>
 
-          
+          {/* Social Share */}
           <div className="flex flex-wrap items-center gap-4">
             <span className="text-zinc-500 text-xs font-bold uppercase tracking-widest">Share the movement</span>
             <div className="flex gap-3">
@@ -120,7 +207,7 @@ const Home = () => {
         </div>
       </section>
 
-      
+
       <section className="relative border-y-2 border-emerald-500/20 bg-gradient-to-r from-emerald-950/30 via-zinc-900/50 to-emerald-950/30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-16 grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8">
           {stats.map((s) => (
@@ -136,7 +223,7 @@ const Home = () => {
         </div>
       </section>
 
-    
+     
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-32">
         <div className="grid lg:grid-cols-5 gap-8 sm:gap-16 items-start">
           <div className="lg:col-span-2">
@@ -156,27 +243,27 @@ const Home = () => {
 
           <div className="lg:col-span-3 space-y-4 sm:space-y-6 text-base sm:text-lg text-zinc-400 leading-relaxed">
             <p className="text-zinc-300 font-medium">
-              "Niko Kadi" — literally "I have the card" — comes from a popular Kenyan card game.
+              "Niko Kadi"  literally "I have the card"  comes from a popular Kenyan card game.
               Somewhere between March 17 and 19, 2026, activists in Nairobi flipped that phrase
               into something much bigger: proof that you're registered to vote.
             </p>
             <p>
               Young people started posting photos of their voter cards on TikTok and Instagram
-              with the caption "Niko Kadi" — then tagging friends. Peer pressure, but make it
+              with the caption "Niko Kadi"  then tagging friends. Peer pressure, but make it
               civic. Within days it had become the loudest thing on Kenyan social media.
             </p>
             <p>
               For many Gen Z Kenyans, this is a direct response to the 2024 finance bill
-              protests. People died demanding change. #NikoKadi is the follow-through —
+              protests. People died demanding change. #NikoKadi is the follow-through 
               turning that anger into something the government actually has to reckon with:
               millions of new voters showing up in 2027.
             </p>
-            <p className="text-green-400 font-bold text-base sm:text-lg">Credit: #Allan Andeba</p>
+            <p className="text-green-400 font-bold text-base sm:text-lg">Credit: #Ademba Allans</p>
           </div>
         </div>
       </section>
 
-
+  
       <section className="relative bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950 border-y-2 border-zinc-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(16,185,129,0.05),transparent_50%)] pointer-events-none" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(244,63,94,0.05),transparent_50%)] pointer-events-none" />
@@ -210,12 +297,12 @@ const Home = () => {
         </div>
       </section>
 
-     
+   
       <section>
         <WeeklyTopics />
       </section>
 
-    
+     
       <section className="relative border-t-2 border-emerald-500/20 bg-gradient-to-b from-zinc-900 to-zinc-950 overflow-hidden">
         <div className="absolute top-0 left-1/3 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
 
@@ -224,7 +311,7 @@ const Home = () => {
             Uko kadi?
           </h2>
           <p className="text-zinc-400 text-base sm:text-xl mb-10 sm:mb-14 max-w-2xl mx-auto leading-relaxed">
-            The clock is ticking. The official drive runs March 30 to April 30.
+            The clock is ticking. The official drive runs until April 28, 2026.
             Find your nearest IEBC office and get it done.
           </p>
 
