@@ -32,16 +32,17 @@ const centerSchema = new mongoose.Schema({
     lng: { type: Number, required: true }
   },
   geoLocation: {
-    type: {
-      type: String,
-      enum: ['Point'],
-      default: 'Point'
-    },
-    coordinates: {
-      type: [Number], 
-      default: undefined
-    }
+  type: {
+    type: String,
+    enum: ['Point'],
+    default: 'Point',
+    required: true
   },
+  coordinates: {
+    type: [Number],
+    required: true
+  }
+},
   address: { type: String, trim: true },
   landmark: { type: String, trim: true },
   workingHours: { type: String, default: '8:00 AM - 5:00 PM' },
@@ -59,7 +60,7 @@ const centerSchema = new mongoose.Schema({
   submittedBy: { type: String, default: 'public' },
   type: {
     type: String,
-    enum: ['county_office', 'mobile_unit', 'school', 'community_hall', 'other'],
+    enum: ['county_office', 'mobile_unit', 'school', 'community_hall', 'other', 'sub-county_office'],
     default: 'other'
   },
   currentQueue: {
@@ -73,31 +74,50 @@ const centerSchema = new mongoose.Schema({
 });
 
 centerSchema.index({ geoLocation: '2dsphere' });
-centerSchema.index({ coordinates: '2dsphere' });
+// centerSchema.index({ coordinates: '2dsphere' });
 centerSchema.index({ isVerified: 1, isActive: 1 });
 
 
-
-
-centerSchema.pre('save', function () {
-  if (this.coordinates && this.coordinates.lat != null && this.coordinates.lng != null) {
+centerSchema.pre('validate', function () {
+  if (
+    this.coordinates &&
+    this.coordinates.lat != null &&
+    this.coordinates.lng != null
+  ) {
     this.geoLocation = {
       type: 'Point',
       coordinates: [this.coordinates.lng, this.coordinates.lat]
     };
   }
-  
 
   if (!this.isVerified) {
-    
     if (!this.expireAt || this.isNew) {
-      this.expireAt = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000); // 14 days
+      this.expireAt = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000);
     }
   } else {
-   
     this.expireAt = undefined;
   }
 });
+
+// centerSchema.pre('save', function () {
+//   if (this.coordinates && this.coordinates.lat != null && this.coordinates.lng != null) {
+//     this.geoLocation = {
+//       type: 'Point',
+//       coordinates: [this.coordinates.lng, this.coordinates.lat]
+//     };
+//   }
+  
+
+//   if (!this.isVerified) {
+    
+//     if (!this.expireAt || this.isNew) {
+//       this.expireAt = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000); // 14 days
+//     }
+//   } else {
+   
+//     this.expireAt = undefined;
+//   }
+// });
 
 centerSchema.methods.calculateDistance = function (userLat, userLng) {
   const R = 6371;

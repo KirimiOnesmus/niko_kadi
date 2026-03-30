@@ -4,6 +4,7 @@ import { BsWhatsapp } from 'react-icons/bs'
 import { getCenters, checkProximity, addCenter } from '../services/centerServices'
 import { submitQueueReport } from '../services/queueService'
 
+
 const counties = [
   'All Kenya', 'Baringo', 'Bomet', 'Bungoma', 'Busia', 'Elgeyo-Marakwet',
   'Embu', 'Garissa', 'Homa Bay', 'Isiolo', 'Kajiado', 'Kakamega', 'Kericho',
@@ -32,13 +33,12 @@ const MAP_STYLES = [
   { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#09090b' }] },
 ]
 
-
 const getStatusColor = (status) => {
   if (!status) return 'zinc'
   const n = status.toUpperCase()
   if (n.includes('FAST') || n.includes('SHORT')) return 'emerald'
   if (n.includes('MODERATE')) return 'yellow'
-  if (n.includes('LONG') || n.includes('VERY')) return 'rose'
+  if (n.includes('LONG') || n.includes('VERY')) return 'red'
   return 'zinc'
 }
 const getStatusText = (status) => status ? status.toUpperCase() : 'UNKNOWN'
@@ -49,12 +49,12 @@ function createLabeledMarker({ map, position, label, color, isNew = false, onCli
   const dotColor =
     color === 'emerald' ? '#10b981' :
     color === 'yellow'  ? '#eab308' :
-    color === 'rose'    ? '#f43f5e' : '#71717a'
+    color === 'red'    ? '#f43f5e' : '#71717a'
 
   const glowColor =
     color === 'emerald' ? 'rgba(16,185,129,0.3)'  :
     color === 'yellow'  ? 'rgba(234,179,8,0.3)'   :
-    color === 'rose'    ? 'rgba(244,63,94,0.3)'   : 'rgba(113,113,122,0.2)'
+    color === 'red'    ? 'rgba(244,63,94,0.3)'   : 'rgba(113,113,122,0.2)'
 
   class LabelMarker extends window.google.maps.OverlayView {
     onAdd() {
@@ -113,12 +113,11 @@ function createLabeledMarker({ map, position, label, color, isNew = false, onCli
   return overlay
 }
 
-
 const StatusBadge = ({ statusColor, status, size = 'sm' }) => {
   const colorMap = {
     emerald: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30',
     yellow:  'bg-yellow-500/10  text-yellow-400  border-yellow-500/30',
-    rose:    'bg-rose-500/10    text-rose-400    border-rose-500/30',
+    red:    'bg-red-500/10    text-red-400    border-red-500/30',
     zinc:    'bg-zinc-500/10    text-zinc-400    border-zinc-500/30',
   }
   return (
@@ -129,6 +128,7 @@ const StatusBadge = ({ statusColor, status, size = 'sm' }) => {
 }
 
 const ADD_STEPS = { IDLE: 'idle', LOCATING: 'locating', FORM: 'form', SUBMITTING: 'submitting', SUCCESS: 'success' }
+
 
 function AddLocationModal({ isOpen, onClose, map, onSuccess }) {
   const [step, setStep]                         = useState(ADD_STEPS.IDLE)
@@ -257,7 +257,7 @@ function AddLocationModal({ isOpen, onClose, map, onSuccess }) {
 
   if (!isOpen) return null
 
-  const accColor = !locationAccuracy ? '' : locationAccuracy <= 15 ? 'bg-emerald-400' : locationAccuracy <= 50 ? 'bg-yellow-400' : 'bg-rose-400'
+  const accColor = !locationAccuracy ? '' : locationAccuracy <= 15 ? 'bg-emerald-400' : locationAccuracy <= 50 ? 'bg-yellow-400' : 'bg-red-400'
   const accLabel = !locationAccuracy ? '' : locationAccuracy <= 15 ? 'Excellent' : locationAccuracy <= 50 ? 'Good' : 'Poor — move outdoors'
   const isDisabled = step === ADD_STEPS.SUBMITTING || step === ADD_STEPS.LOCATING
 
@@ -311,7 +311,7 @@ function AddLocationModal({ isOpen, onClose, map, onSuccess }) {
             </>
           ) : (
             <>
-              <div className="w-2 h-2 rounded-full bg-rose-400 shrink-0" />
+              <div className="w-2 h-2 rounded-full bg-red-400 shrink-0" />
               <p className="text-zinc-400 text-xs font-medium flex-1">Location not detected</p>
               <button onClick={startLocating} className="text-emerald-400 text-[11px] font-black
                hover:text-emerald-300 transition-colors cursor-pointer shrink-0">
@@ -351,21 +351,21 @@ function AddLocationModal({ isOpen, onClose, map, onSuccess }) {
             )}
 
             {formError && !duplicate && (
-              <div className="bg-rose-500/10 border border-rose-500/30 rounded-2xl p-3 flex gap-2.5">
-                <FiAlertCircle className="text-rose-400 shrink-0 mt-0.5" size={14} />
-                <p className="text-rose-300 text-sm leading-relaxed">{formError}</p>
+              <div className="bg-red-500/10 border border-red-500/30 rounded-2xl p-3 flex gap-2.5">
+                <FiAlertCircle className="text-red-400 shrink-0 mt-0.5" size={14} />
+                <p className="text-red-300 text-sm leading-relaxed">{formError}</p>
               </div>
             )}
 
            
             <div>
               <label className="block text-zinc-400 font-bold text-[11px] uppercase tracking-wider mb-1.5">
-                Center name <span className="text-rose-400">*</span>
+                Center name <span className="text-red-400">*</span>
               </label>
               <input
                 className="w-full bg-zinc-950 border-2 border-zinc-800 focus:border-emerald-500/60 rounded-xl px-3.5 py-2.5 text-white text-sm
                  placeholder-zinc-700 outline-none transition-all font-medium disabled:opacity-50"
-                placeholder="e.g. Westlands Primary School"
+                placeholder="Meru Primary School"
                 value={form.name}
                 onChange={e => setForm({ ...form, name: e.target.value })}
                 disabled={isDisabled}
@@ -375,7 +375,7 @@ function AddLocationModal({ isOpen, onClose, map, onSuccess }) {
             
             <div>
               <label className="block text-zinc-400 font-bold text-[11px] uppercase tracking-wider mb-1.5">
-                County <span className="text-rose-400">*</span>
+                County <span className="text-red-400">*</span>
               </label>
               <div className="relative">
                 <button
@@ -415,7 +415,7 @@ function AddLocationModal({ isOpen, onClose, map, onSuccess }) {
                 className="w-full bg-zinc-950 border-2 border-zinc-800 focus:border-emerald-500/60 rounded-xl
                  px-3.5 py-2.5 text-white text-sm placeholder-zinc-700 outline-none transition-all font-medium 
                  disabled:opacity-50"
-                placeholder="e.g. Westlands Constituency"
+                placeholder="North Imenti"
                 value={form.constituency}
                 onChange={e => setForm({ ...form, constituency: e.target.value })}
                 disabled={isDisabled}
@@ -448,7 +448,7 @@ function AddLocationModal({ isOpen, onClose, map, onSuccess }) {
               <input
                 className="w-full bg-zinc-950 border-2 border-zinc-800 focus:border-emerald-500/60 rounded-xl
                  px-3.5 py-2.5 text-white text-sm placeholder-zinc-700 outline-none transition-all font-medium disabled:opacity-50"
-                placeholder="e.g. Near Total petrol station, off Waiyaki Way"
+                placeholder="Opposite County Offices"
                 value={form.address}
                 onChange={e => setForm({ ...form, address: e.target.value })}
                 disabled={isDisabled}
@@ -506,13 +506,20 @@ const Map = () => {
 
   const fetchCenters = async (locationFilter = null) => {
     try {
-      setLoading(true); setError(null)
+   
+      setLoading(true)
+      setError(null)
+      
       const filters = {
         county: selectedCounty !== 'All Kenya' ? selectedCounty : null,
         search: searchQuery || null,
         ...locationFilter,
       }
+      
+     
       const response = await getCenters(filters)
+ 
+      
       if (response.success) {
         const transformed = response.data.map(c => ({
           id:          c._id,
@@ -532,54 +539,116 @@ const Map = () => {
           landmark:    c.landmark,
           type:        c.type,
         }))
+        
+   
         setCenters(transformed)
-        if (transformed.length > 0 && window.google) renderMarkers(transformed)
+        
+
+        if (transformed.length > 0 && window.google?.maps && googleMapRef.current) {
+        
+          renderMarkers(transformed)
+        }
+      } else {
+        
+        setError('Failed to load centers')
       }
     } catch (err) {
-      console.error(err)
-      setError('Failed to load centers. Please try again.')
+  
+      setError(err.message || 'Failed to load centers. Please try again.')
     } finally {
       setLoading(false)
     }
   }
 
+  
   useEffect(() => {
+
+    
+    if (window.google?.maps) {
+     
+      return
+    }
+    
+    if (document.getElementById('gmaps-script')) {
+ 
+      return
+    }
+
+    const script = document.createElement('script')
+    script.id = 'gmaps-script'
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${import.meta.env.VITE_GOOGLE_MAPS_API_KEY}&libraries=places&loading=async`
+    script.async = true
+    script.defer = true
+
+    
+    script.onerror = () => {
+      
+      setError('Failed to load map. Please check your API key.')
+    }
+    
+    document.head.appendChild(script)
+  }, [])
+
+
+  useEffect(() => {
+    
+    
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         ({ coords }) => {
           const loc = { lat: coords.latitude, lng: coords.longitude }
+          
           setUserLocation(loc)
           setShowLocationToast(true)
           setTimeout(() => setShowLocationToast(false), 3000)
           fetchCenters(loc)
         },
-        () => fetchCenters()
+        (err) => {
+   
+          fetchCenters() 
+        }
       )
-    } else fetchCenters()
+    } else {
+      
+      fetchCenters() 
+    }
   }, [])
 
+ 
   useEffect(() => {
+   
     fetchCenters(userLocation ? { lat: userLocation.lat, lng: userLocation.lng } : null)
   }, [selectedCounty])
 
+  
   useEffect(() => {
-    if (!window.google) {
-      const script = document.createElement('script')
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${import.meta.env.VITE_GOOGLE_MAPS_API_KEY}&libraries=places`
-      script.async = true; script.defer = true
-      document.head.appendChild(script)
-      script.onload = () => { if (centers.length > 0) renderMarkers(centers) }
-    } else if (centers.length > 0) renderMarkers(centers)
+    if (!window.google?.maps) {
+      
+      return
+    }
+    
+    if (centers.length === 0) {
+     
+      return
+    }
+    
+   
+    renderMarkers(centers)
   }, [centers])
 
   const renderMarkers = (centersData) => {
-    if (!mapRef.current || !window.google) return
+    if (!mapRef.current || !window.google?.maps) {
+      
+      return
+    }
 
     
     labelMarkersRef.current.forEach(m => m.setMap(null))
     labelMarkersRef.current = []
 
+    
     if (!googleMapRef.current) {
+      
       googleMapRef.current = new window.google.maps.Map(mapRef.current, {
         center: userLocation || { lat: -1.2864, lng: 36.8172 },
         zoom: userLocation ? 13 : 7,
@@ -589,18 +658,25 @@ const Map = () => {
       })
     }
 
-    
+
     if (userLocation) {
       new window.google.maps.Marker({
         position: userLocation,
         map: googleMapRef.current,
-        icon: { path: window.google.maps.SymbolPath.CIRCLE, scale: 8, fillColor: '#3b82f6', fillOpacity: 1, strokeColor: '#fff', strokeWeight: 3 },
+        icon: { 
+          path: window.google.maps.SymbolPath.CIRCLE, 
+          scale: 8, 
+          fillColor: '#3b82f6', 
+          fillOpacity: 1, 
+          strokeColor: '#fff', 
+          strokeWeight: 3 
+        },
         title: 'Current Location',
         zIndex: 100,
       })
     }
 
- 
+
     centersData.forEach(center => {
       const overlay = createLabeledMarker({
         map: googleMapRef.current,
@@ -615,12 +691,15 @@ const Map = () => {
       if (overlay) labelMarkersRef.current.push(overlay)
     })
 
+    // Fit bounds
     if (centersData.length > 0) {
       const bounds = new window.google.maps.LatLngBounds()
       if (userLocation) bounds.extend(userLocation)
       centersData.forEach(c => bounds.extend({ lat: c.lat, lng: c.lng }))
       googleMapRef.current.fitBounds(bounds)
     }
+    
+    
   }
 
   const handleCenterAdded = (newCenter) => {
@@ -683,10 +762,9 @@ const Map = () => {
 
   return (
     <div className="h-screen bg-zinc-950 relative overflow-hidden">
-
       <div ref={mapRef} className="absolute inset-0 w-full h-full" />
 
-    
+
       <div className="absolute top-0 left-0 right-0 z-10 bg-gradient-to-b from-zinc-950 via-zinc-950/95 to-transparent pt-4 pb-8">
         <div className="max-w-7xl mx-auto px-3 sm:px-4">
           <div className="flex gap-2">
@@ -724,7 +802,6 @@ const Map = () => {
         </div>
       </div>
 
-  
       {showLocationToast && (
         <div className="absolute top-20 sm:top-24 left-1/2 -translate-x-1/2 z-20 bg-emerald-500 text-black px-4 sm:px-6 py-2.5 sm:py-3 rounded-full flex items-center gap-2 sm:gap-3 shadow-2xl shadow-emerald-500/30 animate-slide-down whitespace-nowrap">
           <div className="w-4 h-4 rounded-full bg-black/10 flex items-center justify-center shrink-0">
@@ -737,7 +814,7 @@ const Map = () => {
         </div>
       )}
 
-   
+
       {loading && (
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 bg-zinc-900 border-2 border-zinc-800 rounded-2xl px-5 py-3.5">
           <div className="flex items-center gap-3">
@@ -747,9 +824,9 @@ const Map = () => {
         </div>
       )}
 
- 
+      
       {error && (
-        <div className="absolute top-20 left-1/2 -translate-x-1/2 z-20 bg-rose-500 text-white px-4 py-2.5 rounded-full flex items-center gap-2 shadow-2xl max-w-[90vw]">
+        <div className="absolute top-20 left-1/2 -translate-x-1/2 z-20 bg-red-500 text-white px-4 py-2.5 rounded-full flex items-center gap-2 shadow-2xl max-w-[90vw]">
           <FiAlertCircle size={16} className="shrink-0" />
           <span className="font-bold text-sm truncate">{error}</span>
           <button onClick={() => fetchCenters(userLocation)} className="ml-1 underline text-sm shrink-0">Retry</button>
@@ -832,13 +909,7 @@ const Map = () => {
         </div>
       </div>
 
-      <button
-        onClick={() => window.open('https://wa.me/number', '_blank')}
-        className="fixed bottom-[44vh] sm:bottom-8 right-4 sm:right-6 z-30 w-12 h-12 sm:w-14 sm:h-14 bg-emerald-500 hover:bg-emerald-400 rounded-full flex items-center justify-center shadow-2xl shadow-emerald-500/40 hover:scale-110 transition-all"
-      >
-        <BsWhatsapp className="text-black" size={22} />
-      </button>
-
+  
       {selectedCenter && (
         <div className="fixed inset-0 z-40 bg-black/75 backdrop-blur-md flex items-end sm:items-center justify-center p-0 sm:p-4">
           <div className="bg-zinc-900 border-2 border-zinc-800 rounded-t-3xl sm:rounded-3xl w-full sm:max-w-lg overflow-hidden animate-slide-up max-h-[92vh] overflow-y-auto">
@@ -879,7 +950,7 @@ const Map = () => {
                   { key: 'short',    label: 'Short Queue', color: 'emerald' },
                   { key: 'moderate', label: 'Moderate',    color: 'yellow'  },
                   { key: 'long',     label: 'Long Wait',   color: 'orange'  },
-                  { key: 'verylong', label: 'Very Long',   color: 'rose'    },
+                  { key: 'verylong', label: 'Very Long',   color: 'red'    },
                 ].map(({ key, label, color }) => (
                   <button
                     key={key} onClick={() => handleSubmitReport(key)} disabled={submittingReport}
@@ -894,7 +965,6 @@ const Map = () => {
 
       {showCountyDropdown && <div className="fixed inset-0 z-[5]" onClick={() => setShowCountyDropdown(false)} />}
 
- 
       <AddLocationModal
         isOpen={showAddModal}
         onClose={() => setShowAddModal(false)}

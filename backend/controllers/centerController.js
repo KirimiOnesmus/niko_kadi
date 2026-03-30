@@ -277,7 +277,7 @@ const addCenter = async (req, res) => {
 
           return res.status(201).json({
             success: true,
-            message: 'Center verified and published successfully! 🎉',
+            message: 'Center verified and published successfully! ',
             published: true,
             data: {
               id: matching._id,

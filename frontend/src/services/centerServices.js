@@ -30,3 +30,6 @@ export const getAllCounties = async () => get('/centers/meta/counties');
 // ── NEW ───────────────────────────────────────────────────────────────────────
 export const addCenter = async ({ name, county, constituency, ward, type, address, landmark, latitude, longitude }) =>
   post('/centers', { name, county, constituency, ward, type, address, landmark, latitude, longitude });
+
+
+
